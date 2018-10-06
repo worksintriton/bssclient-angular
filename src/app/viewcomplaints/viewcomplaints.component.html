@@ -1,0 +1,141 @@
+<div class="row mb-3">
+  <div class="col-12 col-lg-8 mb-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Input</h5>
+        <div class="row">
+          <div class="col-12 col-sm-6 form-group">
+            <label for="input-name">Name</label>
+            <input type="text" class="form-control" id="input-name">
+          </div>
+          <div class="col-12 col-sm-6 form-group">
+            <label for="input-email-error">Email address</label>
+            <input type="email" class="form-control is-invalid" id="input-email-error">
+            <div class="form-text invalid-feedback">
+              <small>
+                Helping text
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6">
+            <label for="input-password">Password</label>
+            <input type="password" class="form-control" id="input-password">
+          </div>
+          <div class="col-12 col-sm-6 form-group">
+            <label for="input-email">Email address</label>
+            <input type="email" class="form-control" id="input-email">
+            <div class="form-text">
+              <small>
+                Helping text
+              </small>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-12 col-sm-6">
+            <label for="input-icon-right">Icon right</label>
+            <div class="input-group">
+              <input type="text" class="form-control border-right-transparent" id="input-icon-right"
+                     placeholder="Input with icon">
+              <div class="input-group-append">
+                <span class="input-group-text px-3"><i class="icon-people"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6">
+            <label for="input-icon-left">Icon left</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text px-3"><i class="icon-people"></i></span>
+              </div>
+              <input type="text" class="form-control border-left-transparent" id="input-icon-left"
+                     placeholder="Input with icon">
+            </div>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6">
+            <label for="dropdown-input">Drop down input</label>
+            <div class="input-group">
+              <input type="text" class="form-control border-right-transparent" id="dropdown-input"
+                     placeholder="Drop down input">
+              <div class="input-group-append">
+                <div ngbDropdown class="dropdown-no-toggle dropdown-grow d-inline-block input-group-text px-3"
+                     placement="bottom-right">
+                  <i class="material-icons" ngbDropdownToggle>keyboard_arrow_down</i>
+                  <div ngbDropdownMenu>
+                    <button class="dropdown-item">Action - 1</button>
+                    <button class="dropdown-item">Another Action</button>
+                    <button class="dropdown-item">Something else is here</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <label for="dropdown-input-icon">Drop down wth icon</label>
+            <div class="input-group">
+              <div class="input-group-append">
+                <span class="input-group-text px-3"><i class="icon-people"></i></span>
+              </div>
+              <input type="text" class="form-control border-right-transparent border-left-transparent"
+                     id="dropdown-input-icon"
+                     placeholder="Drop down wth icon">
+              <div class="input-group-append">
+                <div ngbDropdown class="dropdown-no-toggle dropdown-grow d-inline-block input-group-text px-3"
+                     placement="bottom-right">
+                  <i class="material-icons" ngbDropdownToggle>keyboard_arrow_down</i>
+                  <div ngbDropdownMenu>
+                    <button class="dropdown-item">Action - 1</button>
+                    <button class="dropdown-item">Another Action</button>
+                    <button class="dropdown-item">Something else is here</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="text-area">Text area</label>
+          <textarea class="form-control" id="text-area" rows="5"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Input mask</h5>
+        <div class="form-group">
+          <label for="input-date">Date</label>
+          <input [textMask]="{mask: dateMask}" type="text" class="form-control" id="input-date"
+                 placeholder="DD/MM/YYYY">
+        </div>
+        <div class="form-group">
+          <label for="input-phone">Phone</label>
+          <input [textMask]="{mask: phoneMask}" type="text" class="form-control" id="input-phone"
+                 placeholder="(___) ___-____">
+        </div>
+        <div class="form-group">
+          <label for="input-money">Money</label>
+          <input [textMask]="{mask: moneyMask}" type="text" class="form-control" id="input-money"
+                 placeholder="Enter some amount">
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Autocomplete</h5>
+        <div class="form-group">
+          <label for="input-auto">Money</label>
+          <input type="text" class="form-control" id="input-auto" placeholder="Choose state"
+                 [(ngModel)]="autocompleteModel" [ngbTypeahead]="search">
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+</div>
