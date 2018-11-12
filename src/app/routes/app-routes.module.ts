@@ -8,27 +8,11 @@ import {RegisterPageComponent} from '../pages/register-page/register-page.compon
 
 import { ForgotpswdComponent } from '../pages/forgotpswd/forgotpswd.component';
 import { ChangepaswordComponent } from '../pages/changepasword/changepasword.component';
-
-
-
-
-// Routes model for application. Some of the pages are loaded lazily to increase startup time.
 const APP_ROUTES: Routes = [
   {
     path: 'main', component: MainPageComponent, children: [
       {path: 'dashboard', component: DashboardPageComponent},
       {path: '', component: LoginPageComponent},
-      
-   
-
-      
-
-
-
-    
-   
-      {path: 'component-table', loadChildren: 'app/pages/component-table/component-table.module#ComponentTableModule'},
-      {path: 'tree', loadChildren: 'app/pages/tree/tree-demo.module#TreeDemoModule'},
       {path: 'drag', loadChildren: 'app/pages/drag/drag.module#DragModule'},
       {path: 'editor', loadChildren: 'app/pages/editor/editor.module#EditorModule'},
       {path: 'slider', loadChildren: 'app/pages/slider/slider.module#SliderModule'},
