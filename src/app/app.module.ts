@@ -35,6 +35,7 @@ import { ChangepaswordComponent } from './pages/changepasword/changepasword.comp
 import { StorageServiceModule} from 'angular-webstorage-service';
 
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { AlertmanagementComponent } from './alertmanagement/alertmanagement.component';
 
 
 
@@ -65,6 +66,7 @@ export function createTranslateLoader(http: HttpClient) {
     
     ForgotpswdComponent,
     ChangepaswordComponent,
+    AlertmanagementComponent,
     
 
    
