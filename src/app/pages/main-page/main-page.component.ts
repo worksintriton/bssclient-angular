@@ -1,4 +1,3 @@
-import { SchoolsService } from './../../schools.service';
 import {Component, HostListener, OnInit, ViewEncapsulation} from '@angular/core';
 import {ResizeService} from '../../resize/resize.service';
 import {TranslateService} from '@ngx-translate/core';
