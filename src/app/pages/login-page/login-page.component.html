@@ -1,29 +1,30 @@
-<div class="card mx-auto login">
-  <div class="card-body">
 
+<div class="loginss">
+  <div class="card logincard mx-auto login">
+    <div class="card-body">
+  
       <h2 class="card-title text-center mb-5">  <img src="assets/images/23.jpg"></h2>
-    <form>
-      <div class="form-group ">
-        <label for="email">Email address</label>
-        <input #uname  type="email" class="form-control col-md-8" id="email">
-      </div>
-      <div class="form-group">
-        <label for="passwords">Password</label>
-        <input #pass type="password" class="form-control col-md-8" id="passwords">
-      </div>
-      <div class="mt-5 text-center">
-          <!-- (click)="trylogin(uname.value,pass.value) -->
-        <button  class="btn login btn btn-primary px-gdn-btn mb-3 mr-3" (click) = "login(uname.value, pass.value)" style="    padding: 10px;
-        width: 100%;
-        margin-top: 2pc;" >LOGIN</button>
-      </div>
-      <div class="mt-4 text-center reset">Forgot password? <a routerLink="/forgotpassword">Reset</a></div>
-      <!-- <div class="text-center">Don’t have an account? <a routerLink="/register">Sign up</a></div> -->
-      <div class="dropdown-divider my-4"></div>
-    </form>
+              <form class="frms" name="form" novalidate>
+        <div class="form-group ">
+          <label for="email">Login ID</label>
+          <input type="text" #Email_id [(ngModel)]="adduser.Email_id" placeholder="Login Id" class="form-control col-md-12"    pattern="^[a-zA-Z0-9_-\s]{2,150}$" name="Email_id" value="" #Email_id>
+        </div>
+        <div class="form-group">
+          <label for="passwords">Password</label>
+          <input type="password" #password [(ngModel)]="adduser.password" placeholder="Password" class="form-control col-md-12"    pattern="^[a-zA-Z0-9_-\s]{2,150}$" name="password" value="" #password>
+        </div>
+        <div class="mt-5 text-center">
+          <button  (click) = "addapi(Email_id.value,password.value)" class="btn form-control btn btn-primary px-gdn-btn mb-3 mr-3" style="color:#fff;">LOGIN</button>
+        </div>
+        <div class="mt-4 text-center" (click)="forgot()">Forgot password? <b>Click</b></div>
+      </form>
+    </div>
   </div>
-</div>
-<div class="text-nowrap footer">
-  2018 <a routerLink=""style="color:#2e75b6 ;">BSS</a> all rights reserved
-</div>
-<!-- <img src="/assets/images/user-pages/login-img.png"> -->
+  </div>
+  <div class="text-nowrap footer">
+    2018 <b routerLink="/">BSS</b> all rights reserved
+  </div>
+  
+  
+
+  

@@ -1,9 +1,12 @@
-import {Component, HostListener, OnInit, ViewEncapsulation} from '@angular/core';
+import {Component, HostListener, OnInit, ViewEncapsulation,Inject} from '@angular/core';
 import {ResizeService} from '../../resize/resize.service';
 import {TranslateService} from '@ngx-translate/core';
 import {routerTransition} from '../../utils/page.animation';
 import {Router} from '@angular/router';
 import {ActivatedRoute} from '@angular/router';
+import { id } from '@swimlane/ngx-datatable/release/utils';
+import {LOCAL_STORAGE,  WebStorageService } from 'angular-webstorage-service';
+import {formatDate } from '@angular/common';
 
 /**
  * This page wraps all other pages in application, it contains header, side menu and router outlet for child pages
@@ -16,6 +19,8 @@ import {ActivatedRoute} from '@angular/router';
   encapsulation: ViewEncapsulation.None
 })
 export class MainPageComponent implements OnInit {
+  id:number;
+  
   // Model for side menu
 
 
@@ -57,13 +62,13 @@ export class MainPageComponent implements OnInit {
           title: 'Complaints',
           iconClass: 'material-icons',
           // iconCode: 'work',
-          routerUrl: '/main/complaints'
+          routerUrl: '/main/listcomplaints'
         },
         {
           title: 'Feedback',
           iconClass: 'material-icons',
           // iconCode: 'work',
-          routerUrl: '/main/viewfeedback',
+          routerUrl: '/main/listfeedback',
         }
       ]
     },
@@ -100,7 +105,10 @@ export class MainPageComponent implements OnInit {
   numberofschools0user= 0;
   numberofuer0schools= 0;
 
-  constructor(private resizeService: ResizeService, translateService: TranslateService, private router: Router) {
+  constructor(@Inject(LOCAL_STORAGE) private storage: WebStorageService,private resizeService: ResizeService, translateService: TranslateService, private router: Router) {
+
+   
+    this.id = this.getFromLocal('user_id');
 
     this.onResize();
     // this language will be used as a fallback when a translation isn't found in the current language
@@ -184,6 +192,11 @@ export class MainPageComponent implements OnInit {
   private isSmallWidth() {
     return window.innerWidth < 700;
   }
+
+  getFromLocal(key): any {
+    // console.log('recieved= key:' + key);
+    return this.storage.get(key);
+   }
 
 
 

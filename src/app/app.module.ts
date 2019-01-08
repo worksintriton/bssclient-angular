@@ -7,35 +7,40 @@ import {DashboardPageComponent} from './pages/dashboard-page/dashboard-page.comp
 import {RouterModule} from '@angular/router';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {PERFECT_SCROLLBAR_CONFIG, PerfectScrollbarConfigInterface, PerfectScrollbarModule} from 'ngx-perfect-scrollbar';
-import {NgbButtonsModule, NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {NgbButtonsModule, NgbModule, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 import {ResizeService} from './resize/resize.service';
 import {EchartComponent} from './components/echart-component/echart.component';
 import {LoginPageComponent} from './pages/login-page/login-page.component';
 import {MainPageComponent} from './pages/main-page/main-page.component';
 import {RegisterPageComponent} from './pages/register-page/register-page.component';
-
 import {NgxGalleryModule} from 'ngx-gallery';
-
 import {AgmCoreModule} from '@agm/core';
-
 import {TextMaskModule} from 'angular2-text-mask';
-
 import { HttpClientModule ,HttpClient} from '@angular/common/http';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-
 import { ApiIntegService } from './api-integ.service';
 import { HttpModule } from '@angular/http';
-
-
-
 import { ForgotpswdComponent } from './pages/forgotpswd/forgotpswd.component';
 import { ChangepaswordComponent } from './pages/changepasword/changepasword.component';
 import { StorageServiceModule} from 'angular-webstorage-service';
-
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { AlertmanagementComponent } from './alertmanagement/alertmanagement.component';
+import { NewcomplaintsComponent } from './complaints/newcomplaints/newcomplaints.component';
+import { ViewcomplaintsComponent } from './complaints/viewcomplaints/viewcomplaints.component';
+import { EditcomplaintsComponent } from './complaints/editcomplaints/editcomplaints.component';
+import { ListcomplaintsComponent } from './complaints/listcomplaints/listcomplaints.component';
+import { ClosedcomplaintsComponent } from './complaints/closedcomplaints/closedcomplaints.component';
+import { NewfeedbackComponent } from './feedback/newfeedback/newfeedback.component';
+import { ViewfeedbackComponent } from './feedback/viewfeedback/viewfeedback.component';
+import { EditfeedbackComponent } from './feedback/editfeedback/editfeedback.component';
+import { ListfeedbackComponent } from './feedback/listfeedback/listfeedback.component';
+import { ReportfeedbackComponent } from './feedback/reportfeedback/reportfeedback.component';
+import { CompletecomplaintsComponent } from './complaints/completecomplaints/completecomplaints.component';
+import { TestComponent } from './test/test.component';
+import { CompleteviewComponent } from './complaints/completeview/completeview.component';
+import { ClosedviewComponent } from './complaints/closedview/closedview.component';
 
 
 
@@ -53,7 +58,6 @@ export function createTranslateLoader(http: HttpClient) {
     AppComponent,
     MultimenuComponent,
     DashboardPageComponent,
-  
     EchartComponent,
   
     LoginPageComponent,
@@ -67,6 +71,20 @@ export function createTranslateLoader(http: HttpClient) {
     ForgotpswdComponent,
     ChangepaswordComponent,
     AlertmanagementComponent,
+    NewcomplaintsComponent,
+    ViewcomplaintsComponent,
+    EditcomplaintsComponent,
+    ListcomplaintsComponent,
+    ClosedcomplaintsComponent,
+    NewfeedbackComponent,
+    ViewfeedbackComponent,
+    EditfeedbackComponent,
+    ListfeedbackComponent,
+    ReportfeedbackComponent,
+    CompletecomplaintsComponent,
+    TestComponent,
+    CompleteviewComponent,
+    ClosedviewComponent,
     
 
    
@@ -76,6 +94,8 @@ export function createTranslateLoader(http: HttpClient) {
   imports: [
   
     BrowserModule,
+
+    NgbModule,
     FormsModule,
     ReactiveFormsModule,
     PerfectScrollbarModule,

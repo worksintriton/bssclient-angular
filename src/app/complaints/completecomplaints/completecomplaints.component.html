@@ -1,0 +1,284 @@
+<!-- BEGIN # BOOTSNIP INFO -->
+
+<div class="container">
+    <div class="row">
+        <div _ngcontent-c4="" class="header">
+          <div _ngcontent-c4="" class="row">
+            <div _ngcontent-c4="" class="col-12 col-md-6 mb-3">
+              <div _ngcontent-c4="" class="col-md-8">
+                <h3 _ngcontent-c4="" class="adsc">
+                  <i _ngcontent-c4="" class="fa fa-university"></i> &nbsp;Open Complaint</h3>
+                </div>
+              </div>
+              <div _ngcontent-c4="" class="col-md-6">
+                  <button type="button" class="btn btn-info btn-lg pull-right" style="color: #fff;" data-toggle="collapse"  data-toggle="modal" data-target="#login-modal1" >Add FAQ</button>
+  
+  
+              </div>
+            </div>
+           
+          </div>
+          <div class=" butn col-md-12 pull-left">
+            <div class="notifications1">
+                      
+                <span class="num">{{All}}</span>
+               
+            </div>
+          <button class="input1" (click) = "addapi1()" >Open</button>
+          <div class="notifications2">
+              
+                <span class="num">{{Open}}</span>
+               
+            </div>
+          <button class="input2" (click) = "addapi2()">Complete</button>
+           
+          <div class="notifications3">
+              
+                <span class="num">{{Inprogree}}</span>
+               
+            </div>
+          <button class="input1" (click) = "addapi3()" >Closed</button>
+                 </div>
+          <div class="col">
+      
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="tabl" >
+                      <table class="table table-bordered" style="border-collapse:collapse;">
+                          <thead>
+                              <tr>
+                                  <th>SL.NO</th>
+                                  <th>Complaint ID</th>
+                                  <th>Complaint From</th>
+                                  <th>Poster ID</th>
+                                  <th>Complaint Type</th>
+                                  <th>Title</th>
+                                  <th>Description</th>
+                                  <th>Posted On</th>
+                                  <th>Status</th>
+                                  <th>View</th>
+                                  <th>Edit</th>
+                                 
+                              </tr>
+                          </thead>
+                          <tbody>
+                                <ng-container  *ngFor="let data of datas ;  let i = index">
+                                        <tr>
+                                            <td>{{i+1}}</td> 
+                                            <td>{{data.complaint_id}}</td>
+                                            <td>{{data.complaint_from}}</td>
+                                            <td id="l1">{{data.poster_id}}</td>
+                                            <td id="a1">{{data.complaint_type}}</td>
+                                            <td id="pc1">{{data.title}}</td>
+                                            <td id="pc1">{{data.description}}</td>
+                                            <td id="pc1">{{data.posted_on}}</td>
+                                            <td id="pc1">{{data.status}}</td>
+                                            <td><button _ngcontent-c6="" class="accordion-toggle  btn mat-button-wrapper btn-sm" data-target="#login-modal2" data-toggle="modal" style="background: transparent;"><i _ngcontent-c6="" class="m-1 icon-screen-desktop"></i></button></td>
+                                            <td><button type="button"   (click)="Move($event, data)" style="background: transparent;"><i _ngcontent-c6="" class="fa m-1 fa-send ng-star-inserted"></i></button></td> 
+                                      </tr>
+                                      </ng-container>      
+                          </tbody>
+                      </table>
+                      <div *ngIf="loading" ><div class="loader text-center"></div></div>     
+                      <div class="card-footer p-0">
+                      <ngb-pagination   [collectionSize]="collsize" [(page)]="advancedPage" (pageChange)="newsync()" [boundaryLinks]="true" ></ngb-pagination>
+                      </div>     
+                </div>
+                </div>
+              </div>
+              </div>
+          
+         
+    </div>
+  </div>
+  <!-- END # BOOTSNIP INFO -->
+  
+  
+  
+  <!-- BEGIN # MODAL LOGIN -->
+  <div class="modal fade" id="login-modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog modal-dialogs">
+      <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+       
+                
+                <!-- Begin # DIV Form -->
+                <div id="div-forms">
+                
+                    <!-- Begin # Login Form -->
+                    <form id="login-form">
+                    <div class="modal-body">
+              
+                        <div class="login-form">
+                            <div class="main-div">
+                                <div class="panel">
+                             <h3>Complaint Form</h3>
+                              
+                               </div>
+                                <form id="Login">
+                                    <div class="form-group">                       
+                                    <label>Complaint Type</label>
+                                    <select class="form-control"  name="complaint_type" value="" [(ngModel)]="addissue.complaint_type"  #employee_type  id="exampleFormControlSelect1">
+                                      <option>Thieft</option>
+                                      <option>Fire</option>
+                                      <option>Accident</option>
+                                      <option>Molestaion</option>
+                                      <option>Murder</option>
+                                      <option>Death</option>
+                                      <option>Mob</option> 
+                                      <option>Assualt</option>
+                                      <option>Departmental</option>
+                                      <option>Help</option>
+                                    </select>                           
+                                    </div>
+                                    <div class="form-group">                           
+                                        <label>Complaint Title</label>
+                                        <input type="text" class="form-control" id="name" name="title" [(ngModel)]="addissue.title"  placeholder="Complaint Title" value="" #title>                          
+                                    </div>
+  
+                                    <div class="form-group">
+                                            <label>Complaint Description</label>
+                                        <textarea type="text" class="form-control" [(ngModel)]="addissue.description" name="description"  placeholder="Complaint Description" value="" #description></textarea>
+                                    </div>
+  
+                                    
+                                </form>
+                                <div>
+                                    <img *ngFor="let url of urls" [src]="url"  [(ngModel)]="addissue.idtype" name="title" class="rounded mb-3" width="180">
+                                  </div>
+                                  <input type="file" multiple (change)="detectFiles($event)">
+                                </div>
+                                <button class="btn btn-primary" data-dismiss="modal" style="color:#fff; background:#13477e!important;" (click) = "addcomplaint()">Submit</button>
+                            </div>
+                  </div>
+                    </form>
+                    <!-- End # Login Form -->
+                    <!-- Begin | Lost Password Form -->
+                </div>
+                <!-- End # DIV Form -->
+                
+      </div>
+    </div>
+  </div>
+    <!-- END # MODAL LOGIN -->
+  
+  
+  
+  <!-- BEGIN # MODAL LOGIN -->
+  <div class="modal fade" id="login-modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog modal-dialogs">
+      <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <!-- Begin # DIV Form -->
+                <div id="div-forms">
+                
+                    <!-- Begin # Login Form -->
+                    <form id="login-form">
+                    <div class="modal-body">
+              
+                        <div class="login-form">
+                            <div class="main-div">
+                                <div class="panel">
+                             <h3>View Complaint</h3>
+                              
+                               </div>
+                                <form id="Login">
+                                    <div class="form-group">                       
+                                    <label>Complaint Type</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Complaint Type"  #complaint_ids disabled>                           
+                                    </div>
+                                    <div class="form-group">                           
+                                        <label>Complaint Title</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Complaint Title" #title disabled>                          
+                                    </div>
+  
+                                    <div class="form-group">
+                                            <label>Complaint Description</label>
+                                        <textarea type="text" class="form-control"  placeholder="Complaint Description" #description disabled></textarea>
+                                    </div>
+  
+                                    <div class="form-group">
+                                            <label>Posted By</label>
+                                        <input type="email" class="form-control" id="inputEmail" placeholder="Posted By"  value = "" #take_by disabled>
+                                    </div>
+                                </form>
+                                <div>
+                                    <img *ngFor="let url of urls" [src]="url" class="rounded mb-3" width="180">
+                                  </div>
+                                  <input type="file" multiple (change)="detectFiles($event)">
+                                </div>
+                                <button class="btn btn-primary" data-dismiss="modal" style="color:#fff; background:#13477e!important;" (click) = "assign2(complaint_ids.value,title.value,description.value,take_by.value)">Submit</button>
+                            </div>
+                  </div>
+                    </form>
+                    <!-- End # Login Form -->
+                    <!-- Begin | Lost Password Form -->
+                </div>
+                <!-- End # DIV Form -->
+                
+      </div>
+    </div>
+  </div>
+    <!-- END # MODAL LOGIN -->
+  
+  
+    <!-- BEGIN # MODAL LOGIN -->
+  <div class="modal fade" id="login-modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog modal-dialogs">
+      <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <!-- Begin # DIV Form -->
+                <div id="div-forms">
+                
+                    <!-- Begin # Login Form -->
+                    <form id="login-form">
+                    <div class="modal-body">
+              
+                        <div class="login-form">
+                            <div class="main-div">
+                                <div class="panel">
+                             <h3>Edit Complaint</h3>
+                              
+                               </div>
+                                <form id="Login">
+                                    <div class="form-group">                       
+                                    <label>Complaint Type</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Complaint Type"  #complaint_ids >                           
+                                    </div>
+                                    <div class="form-group">                           
+                                        <label>Complaint Title</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Complaint Title" #title >                          
+                                    </div>
+  
+                                    <div class="form-group">
+                                            <label>Complaint Description</label>
+                                        <textarea type="text" class="form-control"  placeholder="Complaint Description" #description ></textarea>
+                                    </div>
+  
+                                    <div class="form-group">
+                                            <label>Posted By</label>
+                                        <input type="email" class="form-control" id="inputEmail" placeholder="Posted By"  value = "" #take_by >
+                                    </div>
+                                </form>
+                                <div>
+                                    <img *ngFor="let url of urls" [src]="url" class="rounded mb-3" width="180">
+                                  </div>
+                                  <input type="file" multiple (change)="detectFiles($event)">
+                                </div>
+                                <button class="btn btn-primary" data-dismiss="modal" style="color:#fff; background:#13477e!important;" (click) = "assign2(complaint_ids.value,title.value,description.value,take_by.value)">Submit</button>
+                            </div>
+                  </div>
+                    </form>
+                    <!-- End # Login Form -->
+                    <!-- Begin | Lost Password Form -->
+                </div>
+                <!-- End # DIV Form -->
+                
+      </div>
+    </div>
+  </div>
+    <!-- END # MODAL LOGIN -->
+  
+  
+  
+  
