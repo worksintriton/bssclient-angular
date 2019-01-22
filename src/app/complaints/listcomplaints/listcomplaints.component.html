@@ -7,7 +7,7 @@
           <div _ngcontent-c4="" class="col-12 col-md-6 mb-3">
             <div _ngcontent-c4="" class="col-md-8">
               <h3 _ngcontent-c4="" class="adsc">
-                <i _ngcontent-c4="" class="fa fa-university"></i> &nbsp;Open Complaint</h3>
+                <i _ngcontent-c4="" class="fa fa-university"></i> &nbsp;Open asdasComplaint</h3>
               </div>
             </div>
             <div _ngcontent-c4="" class="col-md-6">
@@ -135,20 +135,20 @@
                                       <label>Complaint Title</label>
                                       <input type="text" class="form-control" id="name" name="title" [(ngModel)]="addissue.title"  placeholder="Complaint Title" value="" #title>                          
                                   </div>
-
                                   <div class="form-group">
                                           <label>Complaint Description</label>
                                       <textarea type="text" class="form-control" [(ngModel)]="addissue.description" name="description"  placeholder="Complaint Description" value="" #description></textarea>
                                   </div>
-
-                                  
                               </form>
                               <div>
                                   <img *ngFor="let url of urls" [src]="url"  [(ngModel)]="addissue.idtype" name="title" class="rounded mb-3" width="180">
                                 </div>
-                                <input type="file" multiple (change)="detectFiles($event)">
-                              </div>
-                              <button class="btn btn-primary" data-dismiss="modal" style="color:#fff; background:#13477e!important;" (click) = "addcomplaint()">Submit</button>
+                                <input type="file" (change)="onfileselected1($event)"/><br>
+                                <input type="file" (change)="onfileselected2($event)"/><br>
+                                <input type="file" (change)="onfileselected3($event)"/><br>
+                                <input type="file" (change)="onfileselected4($event)"/><br>
+                            </div>
+                              <button class="btn btn-primary" data-dismiss="modal" style="color:#fff; background:#13477e!important;" (click) = "attach()">Submit</button>
                           </div>
                 </div>
                   </form>
@@ -245,84 +245,7 @@
               
 
 
-  <!-- BEGIN # MODAL LOGIN -->
-<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-    <div class="modal-dialog" style="max-width: 700px;margin-right: 17%;">
-    <div class="modal-content">
-      <button type="button" class="close" data-dismiss="modal">&times;</button>
-         
-              
-              <!-- Begin # DIV Form -->
-              <div id="div-forms">
-              
-                  <!-- Begin # Login Form -->
-                  <form id="login-form">
-                  <div class="modal-body">
-            
-                      <div class="login-form">
-                          <div class="main-div">
-                              <div class="panel">
-                                  <h3>View Compliant</h3>
-                            
-                             </div>
-                              <form id="Login">
-                          
 
-                                  <div class="form-group row">
-                                      
-                                  <label class="col-sm-4">Complaint From :</label>
-                                  <div class="col-md-8">
-                                      <input type="text" class="form-control"  value = "{{datass.complaint_from}}" id="name" disabled>
-                                  </div>
-                                  </div>
-
-                                  <div class="form-group">
-                          
-                                      <label>Type</label>
-                                      <input type="text" class="form-control" id="name"  value = "{{datass.complaint_type}}" disabled>
-                          
-                                  </div>
-
-
-                                  
-
-                                  <div class="form-group">
-                          
-                                      <label>Title</label>
-                                      <input type="email" class="form-control" id="inputEmail"  value = "{{datass.title}}" disabled>
-                          
-                                  </div>
-                          
-                                  <div class="form-group">
-                                      <label>Description</label>
-                                      <textarea type="text" class="form-control"   id="inputEmail"  value = "{{datass.description}}" disabled></textarea>
-                          
-                                  </div>
-                                  
-                                  
-                          
-                              </form>
-
-                              <div class="card mb-3">
-                                  <div class="card-body">
-                                    <h5 class="card-title"></h5>
-                                    <ngx-gallery [options]="onlyThumbnailsGalleryOptions" [images]="galleryImages"></ngx-gallery>
-                                  </div>
-                                </div>
-                              </div>
-                         
-                          </div>
-                </div>
-              
-                  </form>
-                  <!-- End # Login Form -->
-                  
-                  <!-- Begin | Lost Password Form -->
-                
-                  
-                  
-              </div>
-              <!-- End # DIV Form -->
 
 
 

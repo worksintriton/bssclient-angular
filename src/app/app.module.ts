@@ -32,11 +32,7 @@ import { ViewcomplaintsComponent } from './complaints/viewcomplaints/viewcomplai
 import { EditcomplaintsComponent } from './complaints/editcomplaints/editcomplaints.component';
 import { ListcomplaintsComponent } from './complaints/listcomplaints/listcomplaints.component';
 import { ClosedcomplaintsComponent } from './complaints/closedcomplaints/closedcomplaints.component';
-import { NewfeedbackComponent } from './feedback/newfeedback/newfeedback.component';
-import { ViewfeedbackComponent } from './feedback/viewfeedback/viewfeedback.component';
-import { EditfeedbackComponent } from './feedback/editfeedback/editfeedback.component';
 import { ListfeedbackComponent } from './feedback/listfeedback/listfeedback.component';
-import { ReportfeedbackComponent } from './feedback/reportfeedback/reportfeedback.component';
 import { CompletecomplaintsComponent } from './complaints/completecomplaints/completecomplaints.component';
 import { TestComponent } from './test/test.component';
 import { CompleteviewComponent } from './complaints/completeview/completeview.component';
@@ -76,11 +72,7 @@ export function createTranslateLoader(http: HttpClient) {
     EditcomplaintsComponent,
     ListcomplaintsComponent,
     ClosedcomplaintsComponent,
-    NewfeedbackComponent,
-    ViewfeedbackComponent,
-    EditfeedbackComponent,
     ListfeedbackComponent,
-    ReportfeedbackComponent,
     CompletecomplaintsComponent,
     TestComponent,
     CompleteviewComponent,

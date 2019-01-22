@@ -13,35 +13,10 @@ import {LOCAL_STORAGE,  WebStorageService } from 'angular-webstorage-service';
 })
 export class ListcomplaintsComponent implements OnInit {
 
-  onlyThumbnailsGalleryOptions = [
-    {
-      'image': false,
-      'height': '100px',
-      'thumbnailSize': 'contain',
-      'arrowPrevIcon': 'fa fa-angle-left',
-      'arrowNextIcon': 'fa fa-angle-right',
-      'width': '100%'
-    }
-  ];
-
-  galleryImages = [
-    {
-      small: 'http://tritontutebox.com/propmall/datauploads/arunexcello/ziva/Project-data/1_COMPANY_PROFILE/vision.png',
-      medium: 'http://tritontutebox.com/propmall/datauploads/arunexcello/ziva/Project-data/1_COMPANY_PROFILE/vision.png',
-      big: 'http://tritontutebox.com/propmall/datauploads/arunexcello/ziva/Project-data/1_COMPANY_PROFILE/vision.png'
-    },
-    {
-      small: 'assets/images/ecommerce/images.jpeg',
-      medium: 'assets/images/ecommerce/images.jpeg',
-      big: 'assets/images/ecommerce/images.jpeg'
-    },
-    {
-      small: 'assets/images/ecommerce/original_6_Hotel_Pet_Peeves_And_How_Hotels_Should_Solve_Them.jpg',
-      medium: 'assets/images/ecommerce/original_6_Hotel_Pet_Peeves_And_How_Hotels_Should_Solve_Them.jpg',
-      big: 'assets/images/ecommerce/original_6_Hotel_Pet_Peeves_And_How_Hotels_Should_Solve_Them.jpg'
-    }
-  ];
   
+  datas:any;
+  id:string;
+  name:string;
   Open:any;
   Inprogree: any;
   Complete:any;
@@ -49,46 +24,84 @@ export class ListcomplaintsComponent implements OnInit {
   counts:any;
   today:any;
   addissue:addissue;
-
-
-
-
-
-  titles = [];
-  datas = [];
-  complaint_id:number;
   datass:any;
-  data:any;
-  cliid:string;
-  your_id:string;
-  moved_to:string;
-  updated_at:string;
-  status:string;
-  id:number;
-  name:string;
+  selectedfile:any;
+  selectedfiles:any;
 
-  urls = new Array<string>();
-  detectFiles(event) {
-    this.urls = [];
-    let files = event.target.files;
-    if (files) {
-      for (let file of files) {
-        let reader = new FileReader();
-        reader.onload = (e: any) => {
-          this.urls.push(e.target.result);
-        }
-        reader.readAsDataURL(file);
-      }
-    }
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   constructor(@Inject(LOCAL_STORAGE) private storage: WebStorageService,private http: HttpClient ,private route: ActivatedRoute, private router: Router) { 
   
     this.addissue = new addissue();
-    this.datass = [];
+
 
 
     
   }
+
+  public attach() {
+    const fd = new FormData();
+    for(let i = 0; i<this.selectedfiles.length ;i++){
+    fd.append('filetoupload', this.selectedfile[i], this.selectedfile[i].name);
+    console.log(fd);
+    }
+    // fd.append('filetoupload', this.selectedfile, this.selectedfile.name);
+    // console.log(fd);
+    // this.http.post('http://132.148.140.42:84/upload/file', fd)
+    // .subscribe((data: any) => {
+    // console.log(data.data); 
+    // this.next1(data.data.path)
+    // this.canloadimage = true;
+    // });   
+
+  }
+
+
+
+
+ onfileselected1(event) {
+  console.log(event)
+  this.selectedfile = event.target.files[0];
+  console.log("done"+this.selectedfile)
+
+  }
+
+  onfileselected2(event) {
+
+    this.selectedfile = event.target.files[0];
+    console.log(this.selectedfile)
+
+    }
+
+    onfileselected3(event) {
+
+      this.selectedfile = event.target.files[0];
+      console.log(this.selectedfile)
+   
+
+      }
+
+      onfileselected4(event) {
+       
+        this.selectedfile = event.target.files[0];
+        console.log(this.selectedfile)
+      
+        }
+
+
   ngOnInit() {
     this.id = this.getFromLocal('user_id');
     this.name = this.getFromLocal('Name');

@@ -146,7 +146,7 @@
                                 <div>
                                     <img *ngFor="let url of urls" [src]="url"  [(ngModel)]="addissue.idtype" name="title" class="rounded mb-3" width="180">
                                   </div>
-                                  <input type="file" multiple (change)="detectFiles($event)">
+                                  <input type="file" (change)="onfileselected($event)"/>
                                 </div>
                                 <button class="btn btn-primary" data-dismiss="modal" style="color:#fff; background:#13477e!important;" (click) = "addcomplaint()">Submit</button>
                             </div>
