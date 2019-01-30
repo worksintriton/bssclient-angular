@@ -88,7 +88,7 @@ export class CompletecomplaintsComponent implements OnInit {
   ngOnInit() {
     this.id = this.getFromLocal('user_id');
     this.name = this.getFromLocal('Name');
-    this.http.post('http://localhost:84/complaints/complaintlist',{"LoginKey":""+this.id}).subscribe(data => {
+    this.http.post('http://132.148.140.42:84/complaints/complaintlist',{"LoginKey":""+this.id}).subscribe(data => {
       this.datas=[];
       let dat = <Issuelist>data;
       for (let index = 0; index < dat.issue.length; index++) {
@@ -108,7 +108,7 @@ export class CompletecomplaintsComponent implements OnInit {
     this.addissue.status = "open"
     this.addissue.posted_on = formatDate(new Date(), 'dd-MM-yyyy hh:mm:ss a', 'en-US', '+0530');
     console.log(this.addissue.LoginKey,this.addissue.complaint_from,this.addissue.complaint_type,this.addissue.description,this.addissue.posted_on,this.addissue.status,this.addissue.title);
-    this.http.post('http://localhost:84/complaints/newcomplaints',{"LoginKey":this.addissue.LoginKey,"complaint_from":this.addissue.complaint_from,"title":this.addissue.title,"description":this.addissue.description,"status":this.addissue.status,"posted_on":this.addissue.posted_on,"complaint_type":this.addissue.complaint_type}).subscribe((data:any)  => {
+    this.http.post('http://132.148.140.42:84/complaints/newcomplaints',{"LoginKey":this.addissue.LoginKey,"complaint_from":this.addissue.complaint_from,"title":this.addissue.title,"description":this.addissue.description,"status":this.addissue.status,"posted_on":this.addissue.posted_on,"complaint_type":this.addissue.complaint_type}).subscribe((data:any)  => {
       console.log(data);
       alert(data.message);
       this.ngOnInit();

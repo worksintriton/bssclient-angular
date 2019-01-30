@@ -27,8 +27,6 @@ import { ChangepaswordComponent } from './pages/changepasword/changepasword.comp
 import { StorageServiceModule} from 'angular-webstorage-service';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { AlertmanagementComponent } from './alertmanagement/alertmanagement.component';
-import { NewcomplaintsComponent } from './complaints/newcomplaints/newcomplaints.component';
-import { ViewcomplaintsComponent } from './complaints/viewcomplaints/viewcomplaints.component';
 import { EditcomplaintsComponent } from './complaints/editcomplaints/editcomplaints.component';
 import { ListcomplaintsComponent } from './complaints/listcomplaints/listcomplaints.component';
 import { ClosedcomplaintsComponent } from './complaints/closedcomplaints/closedcomplaints.component';
@@ -67,8 +65,6 @@ export function createTranslateLoader(http: HttpClient) {
     ForgotpswdComponent,
     ChangepaswordComponent,
     AlertmanagementComponent,
-    NewcomplaintsComponent,
-    ViewcomplaintsComponent,
     EditcomplaintsComponent,
     ListcomplaintsComponent,
     ClosedcomplaintsComponent,

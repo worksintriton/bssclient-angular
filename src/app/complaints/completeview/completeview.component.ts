@@ -109,7 +109,7 @@ export class CompleteviewComponent implements OnInit {
   }
 
   reopen1(){
-    this.http.post('http://localhost:84/complaints/newcomplaints',{"LoginKey":this.datas0.poster_id,"complaint_from":this.datas0.complaint_from,"title":this.datas0.title,"description":this.datas0.description,"status":"open","posted_on":this.datas0.posted_on,"complaint_type":this.datas0.complaint_type}).subscribe((data:any)  => {
+    this.http.post('http://132.148.140.42:84/complaints/newcomplaints',{"LoginKey":this.datas0.poster_id,"complaint_from":this.datas0.complaint_from,"title":this.datas0.title,"description":this.datas0.description,"status":"open","posted_on":this.datas0.posted_on,"complaint_type":this.datas0.complaint_type}).subscribe((data:any)  => {
       console.log(data);
       alert(data.message);
       this.ngOnInit();
@@ -117,7 +117,7 @@ export class CompleteviewComponent implements OnInit {
   }
 
   repone(){
-    this.http.post('http://localhost:84/issue/clearissue',{"complaint_id":this.complaint_ids}).subscribe((data:any)  => {
+    this.http.post('http://132.148.140.42:84/issue/clearissue',{"complaint_id":this.complaint_ids}).subscribe((data:any)  => {
       console.log(data);
        this.reopen1()
       });

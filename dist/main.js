@@ -280,32 +280,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! angular-webstorage-service */ "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.es5.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
 /* harmony import */ var _alertmanagement_alertmanagement_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./alertmanagement/alertmanagement.component */ "./src/app/alertmanagement/alertmanagement.component.ts");
-/* harmony import */ var _complaints_newcomplaints_newcomplaints_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./complaints/newcomplaints/newcomplaints.component */ "./src/app/complaints/newcomplaints/newcomplaints.component.ts");
-/* harmony import */ var _complaints_viewcomplaints_viewcomplaints_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./complaints/viewcomplaints/viewcomplaints.component */ "./src/app/complaints/viewcomplaints/viewcomplaints.component.ts");
-/* harmony import */ var _complaints_editcomplaints_editcomplaints_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./complaints/editcomplaints/editcomplaints.component */ "./src/app/complaints/editcomplaints/editcomplaints.component.ts");
-/* harmony import */ var _complaints_listcomplaints_listcomplaints_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./complaints/listcomplaints/listcomplaints.component */ "./src/app/complaints/listcomplaints/listcomplaints.component.ts");
-/* harmony import */ var _complaints_closedcomplaints_closedcomplaints_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./complaints/closedcomplaints/closedcomplaints.component */ "./src/app/complaints/closedcomplaints/closedcomplaints.component.ts");
-/* harmony import */ var _feedback_newfeedback_newfeedback_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./feedback/newfeedback/newfeedback.component */ "./src/app/feedback/newfeedback/newfeedback.component.ts");
-/* harmony import */ var _feedback_viewfeedback_viewfeedback_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./feedback/viewfeedback/viewfeedback.component */ "./src/app/feedback/viewfeedback/viewfeedback.component.ts");
-/* harmony import */ var _feedback_editfeedback_editfeedback_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./feedback/editfeedback/editfeedback.component */ "./src/app/feedback/editfeedback/editfeedback.component.ts");
-/* harmony import */ var _feedback_listfeedback_listfeedback_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./feedback/listfeedback/listfeedback.component */ "./src/app/feedback/listfeedback/listfeedback.component.ts");
-/* harmony import */ var _feedback_reportfeedback_reportfeedback_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./feedback/reportfeedback/reportfeedback.component */ "./src/app/feedback/reportfeedback/reportfeedback.component.ts");
-/* harmony import */ var _complaints_completecomplaints_completecomplaints_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./complaints/completecomplaints/completecomplaints.component */ "./src/app/complaints/completecomplaints/completecomplaints.component.ts");
-/* harmony import */ var _test_test_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./test/test.component */ "./src/app/test/test.component.ts");
-/* harmony import */ var _complaints_completeview_completeview_component__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./complaints/completeview/completeview.component */ "./src/app/complaints/completeview/completeview.component.ts");
-/* harmony import */ var _complaints_closedview_closedview_component__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./complaints/closedview/closedview.component */ "./src/app/complaints/closedview/closedview.component.ts");
+/* harmony import */ var _complaints_editcomplaints_editcomplaints_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./complaints/editcomplaints/editcomplaints.component */ "./src/app/complaints/editcomplaints/editcomplaints.component.ts");
+/* harmony import */ var _complaints_listcomplaints_listcomplaints_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./complaints/listcomplaints/listcomplaints.component */ "./src/app/complaints/listcomplaints/listcomplaints.component.ts");
+/* harmony import */ var _complaints_closedcomplaints_closedcomplaints_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./complaints/closedcomplaints/closedcomplaints.component */ "./src/app/complaints/closedcomplaints/closedcomplaints.component.ts");
+/* harmony import */ var _feedback_listfeedback_listfeedback_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./feedback/listfeedback/listfeedback.component */ "./src/app/feedback/listfeedback/listfeedback.component.ts");
+/* harmony import */ var _complaints_completecomplaints_completecomplaints_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./complaints/completecomplaints/completecomplaints.component */ "./src/app/complaints/completecomplaints/completecomplaints.component.ts");
+/* harmony import */ var _test_test_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./test/test.component */ "./src/app/test/test.component.ts");
+/* harmony import */ var _complaints_completeview_completeview_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./complaints/completeview/completeview.component */ "./src/app/complaints/completeview/completeview.component.ts");
+/* harmony import */ var _complaints_closedview_closedview_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./complaints/closedview/closedview.component */ "./src/app/complaints/closedview/closedview.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
-
-
-
-
-
 
 
 
@@ -366,20 +354,14 @@ var AppModule = /** @class */ (function () {
                 _pages_forgotpswd_forgotpswd_component__WEBPACK_IMPORTED_MODULE_24__["ForgotpswdComponent"],
                 _pages_changepasword_changepasword_component__WEBPACK_IMPORTED_MODULE_25__["ChangepaswordComponent"],
                 _alertmanagement_alertmanagement_component__WEBPACK_IMPORTED_MODULE_28__["AlertmanagementComponent"],
-                _complaints_newcomplaints_newcomplaints_component__WEBPACK_IMPORTED_MODULE_29__["NewcomplaintsComponent"],
-                _complaints_viewcomplaints_viewcomplaints_component__WEBPACK_IMPORTED_MODULE_30__["ViewcomplaintsComponent"],
-                _complaints_editcomplaints_editcomplaints_component__WEBPACK_IMPORTED_MODULE_31__["EditcomplaintsComponent"],
-                _complaints_listcomplaints_listcomplaints_component__WEBPACK_IMPORTED_MODULE_32__["ListcomplaintsComponent"],
-                _complaints_closedcomplaints_closedcomplaints_component__WEBPACK_IMPORTED_MODULE_33__["ClosedcomplaintsComponent"],
-                _feedback_newfeedback_newfeedback_component__WEBPACK_IMPORTED_MODULE_34__["NewfeedbackComponent"],
-                _feedback_viewfeedback_viewfeedback_component__WEBPACK_IMPORTED_MODULE_35__["ViewfeedbackComponent"],
-                _feedback_editfeedback_editfeedback_component__WEBPACK_IMPORTED_MODULE_36__["EditfeedbackComponent"],
-                _feedback_listfeedback_listfeedback_component__WEBPACK_IMPORTED_MODULE_37__["ListfeedbackComponent"],
-                _feedback_reportfeedback_reportfeedback_component__WEBPACK_IMPORTED_MODULE_38__["ReportfeedbackComponent"],
-                _complaints_completecomplaints_completecomplaints_component__WEBPACK_IMPORTED_MODULE_39__["CompletecomplaintsComponent"],
-                _test_test_component__WEBPACK_IMPORTED_MODULE_40__["TestComponent"],
-                _complaints_completeview_completeview_component__WEBPACK_IMPORTED_MODULE_41__["CompleteviewComponent"],
-                _complaints_closedview_closedview_component__WEBPACK_IMPORTED_MODULE_42__["ClosedviewComponent"],
+                _complaints_editcomplaints_editcomplaints_component__WEBPACK_IMPORTED_MODULE_29__["EditcomplaintsComponent"],
+                _complaints_listcomplaints_listcomplaints_component__WEBPACK_IMPORTED_MODULE_30__["ListcomplaintsComponent"],
+                _complaints_closedcomplaints_closedcomplaints_component__WEBPACK_IMPORTED_MODULE_31__["ClosedcomplaintsComponent"],
+                _feedback_listfeedback_listfeedback_component__WEBPACK_IMPORTED_MODULE_32__["ListfeedbackComponent"],
+                _complaints_completecomplaints_completecomplaints_component__WEBPACK_IMPORTED_MODULE_33__["CompletecomplaintsComponent"],
+                _test_test_component__WEBPACK_IMPORTED_MODULE_34__["TestComponent"],
+                _complaints_completeview_completeview_component__WEBPACK_IMPORTED_MODULE_35__["CompleteviewComponent"],
+                _complaints_closedview_closedview_component__WEBPACK_IMPORTED_MODULE_36__["ClosedviewComponent"],
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -522,7 +504,7 @@ var ClosedcomplaintsComponent = /** @class */ (function () {
         this.addissue = new addissue();
         this.id = this.getFromLocal('user_id');
         this.name = this.getFromLocal('Name');
-        this.http.post('http://localhost:84/complaints/complaintlist', { "LoginKey": "" + this.id }).subscribe(function (data) {
+        this.http.post('http://132.148.140.42:84/complaints/complaintlist', { "LoginKey": "" + this.id }).subscribe(function (data) {
             _this.datas = [];
             var dat = data;
             for (var index = 0; index < dat.issue.length; index++) {
@@ -556,7 +538,7 @@ var ClosedcomplaintsComponent = /** @class */ (function () {
         this.addissue.status = "open";
         this.addissue.posted_on = Object(_angular_common__WEBPACK_IMPORTED_MODULE_3__["formatDate"])(new Date(), 'dd-MM-yyyy hh:mm:ss a', 'en-US', '+0530');
         console.log(this.addissue.LoginKey, this.addissue.complaint_from, this.addissue.complaint_type, this.addissue.description, this.addissue.posted_on, this.addissue.status, this.addissue.title);
-        this.http.post('http://localhost:84/complaints/newcomplaints', { "LoginKey": this.addissue.LoginKey, "complaint_from": this.addissue.complaint_from, "title": this.addissue.title, "description": this.addissue.description, "status": this.addissue.status, "posted_on": this.addissue.posted_on, "complaint_type": this.addissue.complaint_type }).subscribe(function (data) {
+        this.http.post('http://132.148.140.42:84/complaints/newcomplaints', { "LoginKey": this.addissue.LoginKey, "complaint_from": this.addissue.complaint_from, "title": this.addissue.title, "description": this.addissue.description, "status": this.addissue.status, "posted_on": this.addissue.posted_on, "complaint_type": this.addissue.complaint_type }).subscribe(function (data) {
             console.log(data);
             alert(data.message);
             _this.ngOnInit();
@@ -790,7 +772,7 @@ var Issuelist = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- BEGIN # BOOTSNIP INFO -->\n\n<div class=\"container\">\n    <div class=\"row\">\n        <div _ngcontent-c4=\"\" class=\"header\">\n          <div _ngcontent-c4=\"\" class=\"row\">\n            <div _ngcontent-c4=\"\" class=\"col-12 col-md-6 mb-3\">\n              <div _ngcontent-c4=\"\" class=\"col-md-8\">\n                <h3 _ngcontent-c4=\"\" class=\"adsc\">\n                  <i _ngcontent-c4=\"\" class=\"fa fa-university\"></i> &nbsp;Open Complaint</h3>\n                </div>\n              </div>\n              <div _ngcontent-c4=\"\" class=\"col-md-6\">\n                  <button type=\"button\" class=\"btn btn-info btn-lg pull-right\" style=\"color: #fff;\" data-toggle=\"collapse\"  data-toggle=\"modal\" data-target=\"#login-modal1\" >Add FAQ</button>\n  \n  \n              </div>\n            </div>\n           \n          </div>\n          <div class=\" butn col-md-12 pull-left\">\n            <div class=\"notifications1\">\n                      \n                <span class=\"num\">{{All}}</span>\n               \n            </div>\n          <button class=\"input1\" (click) = \"addapi1()\" >Open</button>\n          <div class=\"notifications2\">\n              \n                <span class=\"num\">{{Open}}</span>\n               \n            </div>\n          <button class=\"input2\" (click) = \"addapi2()\">Complete</button>\n           \n          <div class=\"notifications3\">\n              \n                <span class=\"num\">{{Inprogree}}</span>\n               \n            </div>\n          <button class=\"input1\" (click) = \"addapi3()\" >Closed</button>\n                 </div>\n          <div class=\"col\">\n      \n              <div class=\"col-md-12\">\n                <div class=\"row\">\n                  <div class=\"tabl\" >\n                      <table class=\"table table-bordered\" style=\"border-collapse:collapse;\">\n                          <thead>\n                              <tr>\n                                  <th>SL.NO</th>\n                                  <th>Complaint ID</th>\n                                  <th>Complaint From</th>\n                                  <th>Poster ID</th>\n                                  <th>Complaint Type</th>\n                                  <th>Title</th>\n                                  <th>Description</th>\n                                  <th>Posted On</th>\n                                  <th>Status</th>\n                                  <th>View</th>\n                                  <th>Edit</th>\n                                 \n                              </tr>\n                          </thead>\n                          <tbody>\n                                <ng-container  *ngFor=\"let data of datas ;  let i = index\">\n                                        <tr>\n                                            <td>{{i+1}}</td> \n                                            <td>{{data.complaint_id}}</td>\n                                            <td>{{data.complaint_from}}</td>\n                                            <td id=\"l1\">{{data.poster_id}}</td>\n                                            <td id=\"a1\">{{data.complaint_type}}</td>\n                                            <td id=\"pc1\">{{data.title}}</td>\n                                            <td id=\"pc1\">{{data.description}}</td>\n                                            <td id=\"pc1\">{{data.posted_on}}</td>\n                                            <td id=\"pc1\">{{data.status}}</td>\n                                            <td><button _ngcontent-c6=\"\" class=\"accordion-toggle  btn mat-button-wrapper btn-sm\" data-target=\"#login-modal2\" data-toggle=\"modal\" style=\"background: transparent;\"><i _ngcontent-c6=\"\" class=\"m-1 icon-screen-desktop\"></i></button></td>\n                                            <td><button type=\"button\"   (click)=\"Move($event, data)\" style=\"background: transparent;\"><i _ngcontent-c6=\"\" class=\"fa m-1 fa-send ng-star-inserted\"></i></button></td> \n                                      </tr>\n                                      </ng-container>      \n                          </tbody>\n                      </table>\n                      <div *ngIf=\"loading\" ><div class=\"loader text-center\"></div></div>     \n                      <div class=\"card-footer p-0\">\n                      <ngb-pagination   [collectionSize]=\"collsize\" [(page)]=\"advancedPage\" (pageChange)=\"newsync()\" [boundaryLinks]=\"true\" ></ngb-pagination>\n                      </div>     \n                </div>\n                </div>\n              </div>\n              </div>\n          \n         \n    </div>\n  </div>\n  <!-- END # BOOTSNIP INFO -->\n  \n  \n  \n  <!-- BEGIN # MODAL LOGIN -->\n  <div class=\"modal fade\" id=\"login-modal1\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\" style=\"display: none;\">\n      <div class=\"modal-dialog modal-dialogs\">\n      <div class=\"modal-content\">\n            <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n       \n                \n                <!-- Begin # DIV Form -->\n                <div id=\"div-forms\">\n                \n                    <!-- Begin # Login Form -->\n                    <form id=\"login-form\">\n                    <div class=\"modal-body\">\n              \n                        <div class=\"login-form\">\n                            <div class=\"main-div\">\n                                <div class=\"panel\">\n                             <h3>Complaint Form</h3>\n                              \n                               </div>\n                                <form id=\"Login\">\n                                    <div class=\"form-group\">                       \n                                    <label>Complaint Type</label>\n                                    <select class=\"form-control\"  name=\"complaint_type\" value=\"\" [(ngModel)]=\"addissue.complaint_type\"  #employee_type  id=\"exampleFormControlSelect1\">\n                                      <option>Thieft</option>\n                                      <option>Fire</option>\n                                      <option>Accident</option>\n                                      <option>Molestaion</option>\n                                      <option>Murder</option>\n                                      <option>Death</option>\n                                      <option>Mob</option> \n                                      <option>Assualt</option>\n                                      <option>Departmental</option>\n                                      <option>Help</option>\n                                    </select>                           \n                                    </div>\n                                    <div class=\"form-group\">                           \n                                        <label>Complaint Title</label>\n                                        <input type=\"text\" class=\"form-control\" id=\"name\" name=\"title\" [(ngModel)]=\"addissue.title\"  placeholder=\"Complaint Title\" value=\"\" #title>                          \n                                    </div>\n  \n                                    <div class=\"form-group\">\n                                            <label>Complaint Description</label>\n                                        <textarea type=\"text\" class=\"form-control\" [(ngModel)]=\"addissue.description\" name=\"description\"  placeholder=\"Complaint Description\" value=\"\" #description></textarea>\n                                    </div>\n  \n                                    \n                                </form>\n                                <div>\n                                    <img *ngFor=\"let url of urls\" [src]=\"url\"  [(ngModel)]=\"addissue.idtype\" name=\"title\" class=\"rounded mb-3\" width=\"180\">\n                                  </div>\n                                  <input type=\"file\" multiple (change)=\"detectFiles($event)\">\n                                </div>\n                                <button class=\"btn btn-primary\" data-dismiss=\"modal\" style=\"color:#fff; background:#13477e!important;\" (click) = \"addcomplaint()\">Submit</button>\n                            </div>\n                  </div>\n                    </form>\n                    <!-- End # Login Form -->\n                    <!-- Begin | Lost Password Form -->\n                </div>\n                <!-- End # DIV Form -->\n                \n      </div>\n    </div>\n  </div>\n    <!-- END # MODAL LOGIN -->\n  \n  \n  \n  <!-- BEGIN # MODAL LOGIN -->\n  <div class=\"modal fade\" id=\"login-modal2\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\" style=\"display: none;\">\n      <div class=\"modal-dialog modal-dialogs\">\n      <div class=\"modal-content\">\n            <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n                <!-- Begin # DIV Form -->\n                <div id=\"div-forms\">\n                \n                    <!-- Begin # Login Form -->\n                    <form id=\"login-form\">\n                    <div class=\"modal-body\">\n              \n                        <div class=\"login-form\">\n                            <div class=\"main-div\">\n                                <div class=\"panel\">\n                             <h3>View Complaint</h3>\n                              \n                               </div>\n                                <form id=\"Login\">\n                                    <div class=\"form-group\">                       \n                                    <label>Complaint Type</label>\n                                        <input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Complaint Type\"  #complaint_ids disabled>                           \n                                    </div>\n                                    <div class=\"form-group\">                           \n                                        <label>Complaint Title</label>\n                                        <input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Complaint Title\" #title disabled>                          \n                                    </div>\n  \n                                    <div class=\"form-group\">\n                                            <label>Complaint Description</label>\n                                        <textarea type=\"text\" class=\"form-control\"  placeholder=\"Complaint Description\" #description disabled></textarea>\n                                    </div>\n  \n                                    <div class=\"form-group\">\n                                            <label>Posted By</label>\n                                        <input type=\"email\" class=\"form-control\" id=\"inputEmail\" placeholder=\"Posted By\"  value = \"\" #take_by disabled>\n                                    </div>\n                                </form>\n                                <div>\n                                    <img *ngFor=\"let url of urls\" [src]=\"url\" class=\"rounded mb-3\" width=\"180\">\n                                  </div>\n                                  <input type=\"file\" multiple (change)=\"detectFiles($event)\">\n                                </div>\n                                <button class=\"btn btn-primary\" data-dismiss=\"modal\" style=\"color:#fff; background:#13477e!important;\" (click) = \"assign2(complaint_ids.value,title.value,description.value,take_by.value)\">Submit</button>\n                            </div>\n                  </div>\n                    </form>\n                    <!-- End # Login Form -->\n                    <!-- Begin | Lost Password Form -->\n                </div>\n                <!-- End # DIV Form -->\n                \n      </div>\n    </div>\n  </div>\n    <!-- END # MODAL LOGIN -->\n  \n  \n    <!-- BEGIN # MODAL LOGIN -->\n  <div class=\"modal fade\" id=\"login-modal3\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\" style=\"display: none;\">\n      <div class=\"modal-dialog modal-dialogs\">\n      <div class=\"modal-content\">\n            <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n                <!-- Begin # DIV Form -->\n                <div id=\"div-forms\">\n                \n                    <!-- Begin # Login Form -->\n                    <form id=\"login-form\">\n                    <div class=\"modal-body\">\n              \n                        <div class=\"login-form\">\n                            <div class=\"main-div\">\n                                <div class=\"panel\">\n                             <h3>Edit Complaint</h3>\n                              \n                               </div>\n                                <form id=\"Login\">\n                                    <div class=\"form-group\">                       \n                                    <label>Complaint Type</label>\n                                        <input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Complaint Type\"  #complaint_ids >                           \n                                    </div>\n                                    <div class=\"form-group\">                           \n                                        <label>Complaint Title</label>\n                                        <input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Complaint Title\" #title >                          \n                                    </div>\n  \n                                    <div class=\"form-group\">\n                                            <label>Complaint Description</label>\n                                        <textarea type=\"text\" class=\"form-control\"  placeholder=\"Complaint Description\" #description ></textarea>\n                                    </div>\n  \n                                    <div class=\"form-group\">\n                                            <label>Posted By</label>\n                                        <input type=\"email\" class=\"form-control\" id=\"inputEmail\" placeholder=\"Posted By\"  value = \"\" #take_by >\n                                    </div>\n                                </form>\n                                <div>\n                                    <img *ngFor=\"let url of urls\" [src]=\"url\" class=\"rounded mb-3\" width=\"180\">\n                                  </div>\n                                  <input type=\"file\" multiple (change)=\"detectFiles($event)\">\n                                </div>\n                                <button class=\"btn btn-primary\" data-dismiss=\"modal\" style=\"color:#fff; background:#13477e!important;\" (click) = \"assign2(complaint_ids.value,title.value,description.value,take_by.value)\">Submit</button>\n                            </div>\n                  </div>\n                    </form>\n                    <!-- End # Login Form -->\n                    <!-- Begin | Lost Password Form -->\n                </div>\n                <!-- End # DIV Form -->\n                \n      </div>\n    </div>\n  </div>\n    <!-- END # MODAL LOGIN -->\n  \n  \n  \n  "
+module.exports = "<!-- BEGIN # BOOTSNIP INFO -->\n\n<div class=\"container\">\n    <div class=\"row\">\n        <div _ngcontent-c4=\"\" class=\"header\">\n          <div _ngcontent-c4=\"\" class=\"row\">\n            <div _ngcontent-c4=\"\" class=\"col-12 col-md-6 mb-3\">\n              <div _ngcontent-c4=\"\" class=\"col-md-8\">\n                <h3 _ngcontent-c4=\"\" class=\"adsc\">\n                  <i _ngcontent-c4=\"\" class=\"fa fa-university\"></i> &nbsp;Open Complaint</h3>\n                </div>\n              </div>\n              <div _ngcontent-c4=\"\" class=\"col-md-6\">\n                  <button type=\"button\" class=\"btn btn-info btn-lg pull-right\" style=\"color: #fff;\" data-toggle=\"collapse\"  data-toggle=\"modal\" data-target=\"#login-modal1\" >Add FAQ</button>\n  \n  \n              </div>\n            </div>\n           \n          </div>\n          <div class=\" butn col-md-12 pull-left\">\n            <div class=\"notifications1\">\n                      \n                <span class=\"num\">{{All}}</span>\n               \n            </div>\n          <button class=\"input1\" (click) = \"addapi1()\" >Open</button>\n          <div class=\"notifications2\">\n              \n                <span class=\"num\">{{Open}}</span>\n               \n            </div>\n          <button class=\"input2\" (click) = \"addapi2()\">Complete</button>\n           \n          <div class=\"notifications3\">\n              \n                <span class=\"num\">{{Inprogree}}</span>\n               \n            </div>\n          <button class=\"input1\" (click) = \"addapi3()\" >Closed</button>\n                 </div>\n          <div class=\"col\">\n      \n              <div class=\"col-md-12\">\n                <div class=\"row\">\n                  <div class=\"tabl\" >\n                      <table class=\"table table-bordered\" style=\"border-collapse:collapse;\">\n                          <thead>\n                              <tr>\n                                  <th>SL.NO</th>\n                                  <th>Complaint ID</th>\n                                  <th>Complaint From</th>\n                                  <th>Poster ID</th>\n                                  <th>Complaint Type</th>\n                                  <th>Title</th>\n                                  <th>Description</th>\n                                  <th>Posted On</th>\n                                  <th>Status</th>\n                                  <th>View</th>\n                                  <th>Edit</th>\n                                 \n                              </tr>\n                          </thead>\n                          <tbody>\n                                <ng-container  *ngFor=\"let data of datas ;  let i = index\">\n                                        <tr>\n                                            <td>{{i+1}}</td> \n                                            <td>{{data.complaint_id}}</td>\n                                            <td>{{data.complaint_from}}</td>\n                                            <td id=\"l1\">{{data.poster_id}}</td>\n                                            <td id=\"a1\">{{data.complaint_type}}</td>\n                                            <td id=\"pc1\">{{data.title}}</td>\n                                            <td id=\"pc1\">{{data.description}}</td>\n                                            <td id=\"pc1\">{{data.posted_on}}</td>\n                                            <td id=\"pc1\">{{data.status}}</td>\n                                            <td><button _ngcontent-c6=\"\" class=\"accordion-toggle  btn mat-button-wrapper btn-sm\" data-target=\"#login-modal2\" data-toggle=\"modal\" style=\"background: transparent;\"><i _ngcontent-c6=\"\" class=\"m-1 icon-screen-desktop\"></i></button></td>\n                                            <td><button type=\"button\"   (click)=\"Move($event, data)\" style=\"background: transparent;\"><i _ngcontent-c6=\"\" class=\"fa m-1 fa-send ng-star-inserted\"></i></button></td> \n                                      </tr>\n                                      </ng-container>      \n                          </tbody>\n                      </table>\n                      <div *ngIf=\"loading\" ><div class=\"loader text-center\"></div></div>     \n                      <div class=\"card-footer p-0\">\n                      <ngb-pagination   [collectionSize]=\"collsize\" [(page)]=\"advancedPage\" (pageChange)=\"newsync()\" [boundaryLinks]=\"true\" ></ngb-pagination>\n                      </div>     \n                </div>\n                </div>\n              </div>\n              </div>\n          \n         \n    </div>\n  </div>\n  <!-- END # BOOTSNIP INFO -->\n  \n  \n  \n  <!-- BEGIN # MODAL LOGIN -->\n  <div class=\"modal fade\" id=\"login-modal1\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\" style=\"display: none;\">\n      <div class=\"modal-dialog modal-dialogs\">\n      <div class=\"modal-content\">\n            <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n       \n                \n                <!-- Begin # DIV Form -->\n                <div id=\"div-forms\">\n                \n                    <!-- Begin # Login Form -->\n                    <form id=\"login-form\">\n                    <div class=\"modal-body\">\n              \n                        <div class=\"login-form\">\n                            <div class=\"main-div\">\n                                <div class=\"panel\">\n                             <h3>Complaint Form</h3>\n                              \n                               </div>\n                                <form id=\"Login\">\n                                    <div class=\"form-group\">                       \n                                    <label>Complaint Type</label>\n                                    <select class=\"form-control\"  name=\"complaint_type\" value=\"\" [(ngModel)]=\"addissue.complaint_type\"  #employee_type  id=\"exampleFormControlSelect1\">\n                                      <option>Thieft</option>\n                                      <option>Fire</option>\n                                      <option>Accident</option>\n                                      <option>Molestaion</option>\n                                      <option>Murder</option>\n                                      <option>Death</option>\n                                      <option>Mob</option> \n                                      <option>Assualt</option>\n                                      <option>Departmental</option>\n                                      <option>Help</option>\n                                    </select>                           \n                                    </div>\n                                    <div class=\"form-group\">                           \n                                        <label>Complaint Title</label>\n                                        <input type=\"text\" class=\"form-control\" id=\"name\" name=\"title\" [(ngModel)]=\"addissue.title\"  placeholder=\"Complaint Title\" value=\"\" #title>                          \n                                    </div>\n  \n                                    <div class=\"form-group\">\n                                            <label>Complaint Description</label>\n                                        <textarea type=\"text\" class=\"form-control\" [(ngModel)]=\"addissue.description\" name=\"description\"  placeholder=\"Complaint Description\" value=\"\" #description></textarea>\n                                    </div>\n  \n                                    \n                                </form>\n                                <div>\n                                    <img *ngFor=\"let url of urls\" [src]=\"url\"  [(ngModel)]=\"addissue.idtype\" name=\"title\" class=\"rounded mb-3\" width=\"180\">\n                                  </div>\n                                  <input type=\"file\" (change)=\"onfileselected($event)\"/>\n                                </div>\n                                <button class=\"btn btn-primary\" data-dismiss=\"modal\" style=\"color:#fff; background:#13477e!important;\" (click) = \"addcomplaint()\">Submit</button>\n                            </div>\n                  </div>\n                    </form>\n                    <!-- End # Login Form -->\n                    <!-- Begin | Lost Password Form -->\n                </div>\n                <!-- End # DIV Form -->\n                \n      </div>\n    </div>\n  </div>\n    <!-- END # MODAL LOGIN -->\n  \n  \n  \n  <!-- BEGIN # MODAL LOGIN -->\n  <div class=\"modal fade\" id=\"login-modal2\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\" style=\"display: none;\">\n      <div class=\"modal-dialog modal-dialogs\">\n      <div class=\"modal-content\">\n            <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n                <!-- Begin # DIV Form -->\n                <div id=\"div-forms\">\n                \n                    <!-- Begin # Login Form -->\n                    <form id=\"login-form\">\n                    <div class=\"modal-body\">\n              \n                        <div class=\"login-form\">\n                            <div class=\"main-div\">\n                                <div class=\"panel\">\n                             <h3>View Complaint</h3>\n                              \n                               </div>\n                                <form id=\"Login\">\n                                    <div class=\"form-group\">                       \n                                    <label>Complaint Type</label>\n                                        <input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Complaint Type\"  #complaint_ids disabled>                           \n                                    </div>\n                                    <div class=\"form-group\">                           \n                                        <label>Complaint Title</label>\n                                        <input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Complaint Title\" #title disabled>                          \n                                    </div>\n  \n                                    <div class=\"form-group\">\n                                            <label>Complaint Description</label>\n                                        <textarea type=\"text\" class=\"form-control\"  placeholder=\"Complaint Description\" #description disabled></textarea>\n                                    </div>\n  \n                                    <div class=\"form-group\">\n                                            <label>Posted By</label>\n                                        <input type=\"email\" class=\"form-control\" id=\"inputEmail\" placeholder=\"Posted By\"  value = \"\" #take_by disabled>\n                                    </div>\n                                </form>\n                                <div>\n                                    <img *ngFor=\"let url of urls\" [src]=\"url\" class=\"rounded mb-3\" width=\"180\">\n                                  </div>\n                                  <input type=\"file\" multiple (change)=\"detectFiles($event)\">\n                                </div>\n                                <button class=\"btn btn-primary\" data-dismiss=\"modal\" style=\"color:#fff; background:#13477e!important;\" (click) = \"assign2(complaint_ids.value,title.value,description.value,take_by.value)\">Submit</button>\n                            </div>\n                  </div>\n                    </form>\n                    <!-- End # Login Form -->\n                    <!-- Begin | Lost Password Form -->\n                </div>\n                <!-- End # DIV Form -->\n                \n      </div>\n    </div>\n  </div>\n    <!-- END # MODAL LOGIN -->\n  \n  \n    <!-- BEGIN # MODAL LOGIN -->\n  <div class=\"modal fade\" id=\"login-modal3\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\" style=\"display: none;\">\n      <div class=\"modal-dialog modal-dialogs\">\n      <div class=\"modal-content\">\n            <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n                <!-- Begin # DIV Form -->\n                <div id=\"div-forms\">\n                \n                    <!-- Begin # Login Form -->\n                    <form id=\"login-form\">\n                    <div class=\"modal-body\">\n              \n                        <div class=\"login-form\">\n                            <div class=\"main-div\">\n                                <div class=\"panel\">\n                             <h3>Edit Complaint</h3>\n                              \n                               </div>\n                                <form id=\"Login\">\n                                    <div class=\"form-group\">                       \n                                    <label>Complaint Type</label>\n                                        <input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Complaint Type\"  #complaint_ids >                           \n                                    </div>\n                                    <div class=\"form-group\">                           \n                                        <label>Complaint Title</label>\n                                        <input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Complaint Title\" #title >                          \n                                    </div>\n  \n                                    <div class=\"form-group\">\n                                            <label>Complaint Description</label>\n                                        <textarea type=\"text\" class=\"form-control\"  placeholder=\"Complaint Description\" #description ></textarea>\n                                    </div>\n  \n                                    <div class=\"form-group\">\n                                            <label>Posted By</label>\n                                        <input type=\"email\" class=\"form-control\" id=\"inputEmail\" placeholder=\"Posted By\"  value = \"\" #take_by >\n                                    </div>\n                                </form>\n                                <div>\n                                    <img *ngFor=\"let url of urls\" [src]=\"url\" class=\"rounded mb-3\" width=\"180\">\n                                  </div>\n                                  <input type=\"file\" multiple (change)=\"detectFiles($event)\">\n                                </div>\n                                <button class=\"btn btn-primary\" data-dismiss=\"modal\" style=\"color:#fff; background:#13477e!important;\" (click) = \"assign2(complaint_ids.value,title.value,description.value,take_by.value)\">Submit</button>\n                            </div>\n                  </div>\n                    </form>\n                    <!-- End # Login Form -->\n                    <!-- Begin | Lost Password Form -->\n                </div>\n                <!-- End # DIV Form -->\n                \n      </div>\n    </div>\n  </div>\n    <!-- END # MODAL LOGIN -->\n  \n  \n  \n  "
 
 /***/ }),
 
@@ -894,7 +876,7 @@ var CompletecomplaintsComponent = /** @class */ (function () {
         var _this = this;
         this.id = this.getFromLocal('user_id');
         this.name = this.getFromLocal('Name');
-        this.http.post('http://localhost:84/complaints/complaintlist', { "LoginKey": "" + this.id }).subscribe(function (data) {
+        this.http.post('http://132.148.140.42:84/complaints/complaintlist', { "LoginKey": "" + this.id }).subscribe(function (data) {
             _this.datas = [];
             var dat = data;
             for (var index = 0; index < dat.issue.length; index++) {
@@ -911,7 +893,7 @@ var CompletecomplaintsComponent = /** @class */ (function () {
         this.addissue.status = "open";
         this.addissue.posted_on = Object(_angular_common__WEBPACK_IMPORTED_MODULE_3__["formatDate"])(new Date(), 'dd-MM-yyyy hh:mm:ss a', 'en-US', '+0530');
         console.log(this.addissue.LoginKey, this.addissue.complaint_from, this.addissue.complaint_type, this.addissue.description, this.addissue.posted_on, this.addissue.status, this.addissue.title);
-        this.http.post('http://localhost:84/complaints/newcomplaints', { "LoginKey": this.addissue.LoginKey, "complaint_from": this.addissue.complaint_from, "title": this.addissue.title, "description": this.addissue.description, "status": this.addissue.status, "posted_on": this.addissue.posted_on, "complaint_type": this.addissue.complaint_type }).subscribe(function (data) {
+        this.http.post('http://132.148.140.42:84/complaints/newcomplaints', { "LoginKey": this.addissue.LoginKey, "complaint_from": this.addissue.complaint_from, "title": this.addissue.title, "description": this.addissue.description, "status": this.addissue.status, "posted_on": this.addissue.posted_on, "complaint_type": this.addissue.complaint_type }).subscribe(function (data) {
             console.log(data);
             alert(data.message);
             _this.ngOnInit();
@@ -1108,12 +1090,19 @@ var CompleteviewComponent = /** @class */ (function () {
             _this.router.navigate(['main/operacomcompletelist']);
         });
     };
+    CompleteviewComponent.prototype.reopen1 = function () {
+        var _this = this;
+        this.http.post('http://132.148.140.42:84/complaints/newcomplaints', { "LoginKey": this.datas0.poster_id, "complaint_from": this.datas0.complaint_from, "title": this.datas0.title, "description": this.datas0.description, "status": "open", "posted_on": this.datas0.posted_on, "complaint_type": this.datas0.complaint_type }).subscribe(function (data) {
+            console.log(data);
+            alert(data.message);
+            _this.ngOnInit();
+        });
+    };
     CompleteviewComponent.prototype.repone = function () {
         var _this = this;
-        this.http.post('http://132.148.140.42:84/complaints/updateStatus', { "complaint_id": this.complaint_ids, "status": "open" }).subscribe(function (data) {
+        this.http.post('http://132.148.140.42:84/issue/clearissue', { "complaint_id": this.complaint_ids }).subscribe(function (data) {
             console.log(data);
-            alert("Complaint Moved to Open");
-            _this.router.navigate(['main/operacomcompletelist']);
+            _this.reopen1();
         });
     };
     CompleteviewComponent = __decorate([
@@ -1216,7 +1205,7 @@ var EditcomplaintsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- BEGIN # BOOTSNIP INFO -->\n\n<div class=\"container\">\n  <div class=\"row\">\n      <div _ngcontent-c4=\"\" class=\"header\">\n        <div _ngcontent-c4=\"\" class=\"row\">\n          <div _ngcontent-c4=\"\" class=\"col-12 col-md-6 mb-3\">\n            <div _ngcontent-c4=\"\" class=\"col-md-8\">\n              <h3 _ngcontent-c4=\"\" class=\"adsc\">\n                <i _ngcontent-c4=\"\" class=\"fa fa-university\"></i> &nbsp;Open Complaint</h3>\n              </div>\n            </div>\n            <div _ngcontent-c4=\"\" class=\"col-md-6\">\n                <button type=\"button\" class=\"btn btn-info btn-lg pull-right\" style=\"color: #fff;\" data-toggle=\"collapse\"  data-toggle=\"modal\" data-target=\"#login-modal1\" >Add FAQ</button>\n\n\n            </div>\n          </div>\n         \n        </div>\n        <div class=\" butn col-md-12 pull-left\">\n          <div class=\"notifications1\">\n                    \n              <span class=\"num\">{{All}}</span>\n             \n          </div>\n        <button class=\"input2\" (click) = \"addapi1()\" >Open</button>\n        <div class=\"notifications2\">\n            \n              <span class=\"num\">{{Open}}</span>\n             \n          </div>\n        <button class=\"input1\" (click) = \"addapi2()\">Complete</button>\n         \n        <div class=\"notifications3\">\n            \n              <span class=\"num\">{{Inprogree}}</span>\n             \n          </div>\n        <button class=\"input1\" (click) = \"addapi3()\" >Closed</button>\n               </div>\n        <div class=\"col\">\n    \n            <div class=\"col-md-12\">\n              <div class=\"row\">\n                <div class=\"tabl\" >\n                    <table class=\"table table-bordered\" style=\"border-collapse:collapse;\">\n                        <thead>\n                            <tr>\n                                <th>SL.NO</th>\n                                <th>Complaint ID</th>\n                                <th>Complaint From</th>\n                                <th>Poster ID</th>\n                                <th>Complaint Type</th>\n                                <th>Title</th>\n                                <th>Description</th>\n                                <th>Posted On</th>\n                                <th>Status</th>\n                                <th>View</th>\n                                <th>Edit</th>\n                               \n                            </tr>\n                        </thead>\n                        <tbody>\n                              <ng-container  *ngFor=\"let data of datas ;  let i = index\">\n                                      <tr>\n                                          <td>{{i+1}}</td> \n                                          <td>{{data.complaint_id}}</td>\n                                          <td>{{data.complaint_from}}</td>\n                                          <td id=\"l1\">{{data.poster_id}}</td>\n                                          <td id=\"a1\">{{data.complaint_type}}</td>\n                                          <td id=\"pc1\">{{data.title}}</td>\n                                          <td id=\"pc1\">{{data.description}}</td>\n                                          <td id=\"pc1\">{{data.posted_on}}</td>\n                                          <td id=\"pc1\">{{data.status}}</td>\n                                          <td><button _ngcontent-c6=\"\" class=\"accordion-toggle  btn mat-button-wrapper btn-sm\" data-target=\"#login-modal2\" data-toggle=\"modal\" (click)=\"open($event, data)\"  style=\"background: transparent;\"><i _ngcontent-c6=\"\" class=\"m-1 icon-screen-desktop\"></i></button></td>\n                                          <td><button _ngcontent-c6=\"\" class=\"accordion-toggle  btn mat-button-wrapper btn-sm\" data-target=\"#login-modal\" data-toggle=\"modal\" (click)=\"edit($event, data)\"  style=\"background: transparent;\"><i _ngcontent-c6=\"\" class=\"m-1 icon-screen-desktop\"></i></button></td>\n                                    </tr>\n                                    </ng-container>      \n                        </tbody>\n                    </table>\n                    <div *ngIf=\"loading\" ><div class=\"loader text-center\"></div></div>     \n                    <div class=\"card-footer p-0\">\n                    <ngb-pagination   [collectionSize]=\"collsize\" [(page)]=\"advancedPage\" (pageChange)=\"newsync()\" [boundaryLinks]=\"true\" ></ngb-pagination>\n                    </div>     \n              </div>\n              </div>\n            </div>\n            </div>\n        \n       \n  </div>\n</div>\n<!-- END # BOOTSNIP INFO -->\n\n\n\n<!-- BEGIN # MODAL LOGIN -->\n<div class=\"modal fade\" id=\"login-modal1\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\" style=\"display: none;\">\n    <div class=\"modal-dialog modal-dialogs\">\n    <div class=\"modal-content\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n     \n              \n              <!-- Begin # DIV Form -->\n              <div id=\"div-forms\">\n              \n                  <!-- Begin # Login Form -->\n                  <form id=\"login-form\">\n                  <div class=\"modal-body\">\n            \n                      <div class=\"login-form\">\n                          <div class=\"main-div\">\n                              <div class=\"panel\">\n                           <h3>Complaint Form</h3>\n                            \n                             </div>\n                              <form id=\"Login\">\n                                  <div class=\"form-group\">                       \n                                  <label>Complaint Type</label>\n                                  <select class=\"form-control\"  name=\"complaint_type\" value=\"\" [(ngModel)]=\"addissue.complaint_type\"  #employee_type  id=\"exampleFormControlSelect1\">\n                                    <option>Thieft</option>\n                                    <option>Fire</option>\n                                    <option>Accident</option>\n                                    <option>Molestaion</option>\n                                    <option>Murder</option>\n                                    <option>Death</option>\n                                    <option>Mob</option> \n                                    <option>Assualt</option>\n                                    <option>Departmental</option>\n                                    <option>Help</option>\n                                  </select>                           \n                                  </div>\n                                  <div class=\"form-group\">                           \n                                      <label>Complaint Title</label>\n                                      <input type=\"text\" class=\"form-control\" id=\"name\" name=\"title\" [(ngModel)]=\"addissue.title\"  placeholder=\"Complaint Title\" value=\"\" #title>                          \n                                  </div>\n\n                                  <div class=\"form-group\">\n                                          <label>Complaint Description</label>\n                                      <textarea type=\"text\" class=\"form-control\" [(ngModel)]=\"addissue.description\" name=\"description\"  placeholder=\"Complaint Description\" value=\"\" #description></textarea>\n                                  </div>\n\n                                  \n                              </form>\n                              <div>\n                                  <img *ngFor=\"let url of urls\" [src]=\"url\"  [(ngModel)]=\"addissue.idtype\" name=\"title\" class=\"rounded mb-3\" width=\"180\">\n                                </div>\n                                <input type=\"file\" multiple (change)=\"detectFiles($event)\">\n                              </div>\n                              <button class=\"btn btn-primary\" data-dismiss=\"modal\" style=\"color:#fff; background:#13477e!important;\" (click) = \"addcomplaint()\">Submit</button>\n                          </div>\n                </div>\n                  </form>\n                  <!-- End # Login Form -->\n                  <!-- Begin | Lost Password Form -->\n              </div>\n              <!-- End # DIV Form -->\n              \n    </div>\n  </div>\n</div>\n  <!-- END # MODAL LOGIN -->\n\n\n\n<!-- BEGIN # MODAL LOGIN -->\n<div class=\"modal fade\" id=\"login-modal2\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\" style=\"display: none;\">\n    <div class=\"modal-dialog\" style=\"max-width: 700px;margin-right: 17%;\">\n    <div class=\"modal-content\">\n      <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n         \n              \n              <!-- Begin # DIV Form -->\n              <div id=\"div-forms\">\n              \n                  <!-- Begin # Login Form -->\n                  <form id=\"login-form\">\n                  <div class=\"modal-body\">\n            \n                      <div class=\"login-form\">\n                          <div class=\"main-div\">\n                              <div class=\"panel\">\n                                  <h3>View Compliant</h3>\n                            \n                             </div>\n                              <form id=\"Login\">\n                          \n\n                                  <div class=\"form-group row\">\n                                      \n                                  <label class=\"col-sm-4\">Complaint From :</label>\n                                  <div class=\"col-md-8\">\n                                      <input type=\"text\" class=\"form-control\"  value = \"{{datass.complaint_from}}\" id=\"name\" disabled>\n                                  </div>\n                                  </div>\n\n                                  <div class=\"form-group\">\n                          \n                                      <label>Type</label>\n                                      <input type=\"text\" class=\"form-control\" id=\"name\"  value = \"{{datass.complaint_type}}\" disabled>\n                          \n                                  </div>\n\n\n                                  \n\n                                  <div class=\"form-group\">\n                          \n                                      <label>Title</label>\n                                      <input type=\"email\" class=\"form-control\" id=\"inputEmail\"  value = \"{{datass.title}}\" disabled>\n                          \n                                  </div>\n                          \n                                  <div class=\"form-group\">\n                                      <label>Description</label>\n                                      <textarea type=\"text\" class=\"form-control\"   id=\"inputEmail\"  value = \"{{datass.description}}\" disabled></textarea>\n                          \n                                  </div>\n                                  \n                                  \n                          \n                              </form>\n\n                              <div class=\"card mb-3\">\n                                  <div class=\"card-body\">\n                                    <h5 class=\"card-title\"></h5>\n                                    <ngx-gallery [options]=\"onlyThumbnailsGalleryOptions\" [images]=\"galleryImages\"></ngx-gallery>\n                                  </div>\n                                </div>\n                              </div>\n                         \n                          </div>\n                </div>\n              \n                  </form>\n                  <!-- End # Login Form -->\n                  \n                  <!-- Begin | Lost Password Form -->\n                \n                  \n                  \n              </div>\n              <!-- End # DIV Form -->\n              \n\n\n  <!-- BEGIN # MODAL LOGIN -->\n<div class=\"modal fade\" id=\"login-modal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\" style=\"display: none;\">\n    <div class=\"modal-dialog\" style=\"max-width: 700px;margin-right: 17%;\">\n    <div class=\"modal-content\">\n      <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n         \n              \n              <!-- Begin # DIV Form -->\n              <div id=\"div-forms\">\n              \n                  <!-- Begin # Login Form -->\n                  <form id=\"login-form\">\n                  <div class=\"modal-body\">\n            \n                      <div class=\"login-form\">\n                          <div class=\"main-div\">\n                              <div class=\"panel\">\n                                  <h3>View Compliant</h3>\n                            \n                             </div>\n                              <form id=\"Login\">\n                          \n\n                                  <div class=\"form-group row\">\n                                      \n                                  <label class=\"col-sm-4\">Complaint From :</label>\n                                  <div class=\"col-md-8\">\n                                      <input type=\"text\" class=\"form-control\"  value = \"{{datass.complaint_from}}\" id=\"name\" disabled>\n                                  </div>\n                                  </div>\n\n                                  <div class=\"form-group\">\n                          \n                                      <label>Type</label>\n                                      <input type=\"text\" class=\"form-control\" id=\"name\"  value = \"{{datass.complaint_type}}\" disabled>\n                          \n                                  </div>\n\n\n                                  \n\n                                  <div class=\"form-group\">\n                          \n                                      <label>Title</label>\n                                      <input type=\"email\" class=\"form-control\" id=\"inputEmail\"  value = \"{{datass.title}}\" disabled>\n                          \n                                  </div>\n                          \n                                  <div class=\"form-group\">\n                                      <label>Description</label>\n                                      <textarea type=\"text\" class=\"form-control\"   id=\"inputEmail\"  value = \"{{datass.description}}\" disabled></textarea>\n                          \n                                  </div>\n                                  \n                                  \n                          \n                              </form>\n\n                              <div class=\"card mb-3\">\n                                  <div class=\"card-body\">\n                                    <h5 class=\"card-title\"></h5>\n                                    <ngx-gallery [options]=\"onlyThumbnailsGalleryOptions\" [images]=\"galleryImages\"></ngx-gallery>\n                                  </div>\n                                </div>\n                              </div>\n                         \n                          </div>\n                </div>\n              \n                  </form>\n                  <!-- End # Login Form -->\n                  \n                  <!-- Begin | Lost Password Form -->\n                \n                  \n                  \n              </div>\n              <!-- End # DIV Form -->\n\n\n\n"
+module.exports = "<!-- BEGIN # BOOTSNIP INFO -->\n\n<div class=\"container\">\n  <div class=\"row\">\n      <div _ngcontent-c4=\"\" class=\"header\">\n        <div _ngcontent-c4=\"\" class=\"row\">\n          <div _ngcontent-c4=\"\" class=\"col-12 col-md-6 mb-3\">\n            <div _ngcontent-c4=\"\" class=\"col-md-8\">\n              <h3 _ngcontent-c4=\"\" class=\"adsc\">\n                <i _ngcontent-c4=\"\" class=\"fa fa-university\"></i> &nbsp;Open asdasComplaint</h3>\n              </div>\n            </div>\n            <div _ngcontent-c4=\"\" class=\"col-md-6\">\n                <button type=\"button\" class=\"btn btn-info btn-lg pull-right\" style=\"color: #fff;\" data-toggle=\"collapse\"  data-toggle=\"modal\" data-target=\"#login-modal1\" >Add Complaint</button>\n\n\n            </div>\n          </div>\n         \n        </div>\n        <div class=\" butn col-md-12 pull-left\">\n          <div class=\"notifications1\">\n                    \n              <span class=\"num\">{{All}}</span>\n             \n          </div>\n        <button class=\"input2\" (click) = \"addapi1()\" >Open</button>\n        <div class=\"notifications2\">\n            \n              <span class=\"num\">{{Open}}</span>\n             \n          </div>\n        <button class=\"input1\" (click) = \"addapi2()\">Complete</button>\n         \n        <div class=\"notifications3\">\n            \n              <span class=\"num\">{{Inprogree}}</span>\n             \n          </div>\n        <button class=\"input1\" (click) = \"addapi3()\" >Closed</button>\n               </div>\n        <div class=\"col\">\n    \n            <div class=\"col-md-12\">\n              <div class=\"row\">\n                <div class=\"tabl\" >\n                    <table class=\"table table-bordered\" style=\"border-collapse:collapse;\">\n                        <thead>\n                            <tr>\n                                <th>SL.NO</th>\n                                <th>Complaint ID</th>\n                                <th>Complaint From</th>\n                                <th>Poster ID</th>\n                                <th>Complaint Type</th>\n                                <th>Title</th>\n                                <th>Description</th>\n                                <th>Posted On</th>\n                                <th>Status</th>\n                                <th>View</th>\n                                <th>Edit</th>\n                               \n                            </tr>\n                        </thead>\n                        <tbody>\n                              <ng-container  *ngFor=\"let data of datas ;  let i = index\">\n                                      <tr>\n                                          <td>{{i+1}}</td> \n                                          <td>{{data.complaint_id}}</td>\n                                          <td>{{data.complaint_from}}</td>\n                                          <td id=\"l1\">{{data.poster_id}}</td>\n                                          <td id=\"a1\">{{data.complaint_type}}</td>\n                                          <td id=\"pc1\">{{data.title}}</td>\n                                          <td id=\"pc1\">{{data.description}}</td>\n                                          <td id=\"pc1\">{{data.posted_on}}</td>\n                                          <td id=\"pc1\">{{data.status}}</td>\n                                          <td><button _ngcontent-c6=\"\" class=\"accordion-toggle  btn mat-button-wrapper btn-sm\" data-target=\"#login-modal2\" data-toggle=\"modal\" (click)=\"open($event, data)\"  style=\"background: transparent;\"><i _ngcontent-c6=\"\" class=\"m-1 icon-screen-desktop\"></i></button></td>\n                                          <td><button _ngcontent-c6=\"\" class=\"accordion-toggle  btn mat-button-wrapper btn-sm\" data-target=\"#login-modal\" data-toggle=\"modal\" (click)=\"edit($event, data)\"  style=\"background: transparent;\"><i _ngcontent-c6=\"\" class=\"m-1 icon-screen-desktop\"></i></button></td>\n                                    </tr>\n                                    </ng-container>      \n                        </tbody>\n                    </table>\n                    <div *ngIf=\"loading\" ><div class=\"loader text-center\"></div></div>     \n                    <div class=\"card-footer p-0\">\n                    <ngb-pagination   [collectionSize]=\"collsize\" [(page)]=\"advancedPage\" (pageChange)=\"newsync()\" [boundaryLinks]=\"true\" ></ngb-pagination>\n                    </div>     \n              </div>\n              </div>\n            </div>\n            </div>\n        \n       \n  </div>\n</div>\n<!-- END # BOOTSNIP INFO -->\n\n\n\n<!-- BEGIN # MODAL LOGIN -->\n<div class=\"modal fade\" id=\"login-modal1\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\" style=\"display: none;\">\n    <div class=\"modal-dialog modal-dialogs\">\n    <div class=\"modal-content\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n     \n              \n              <!-- Begin # DIV Form -->\n              <div id=\"div-forms\">\n              \n                  <!-- Begin # Login Form -->\n                  <form id=\"login-form\">\n                  <div class=\"modal-body\">\n            \n                      <div class=\"login-form\">\n                          <div class=\"main-div\">\n                              <div class=\"panel\">\n                           <h3>Complaint Form</h3>\n                            \n                             </div>\n                              <form id=\"Login\">\n                                  <div class=\"form-group\">                       \n                                  <label>Complaint Type</label>\n                                  <select class=\"form-control\"  name=\"complaint_type\" value=\"\" [(ngModel)]=\"addissue.complaint_type\"  #employee_type  id=\"exampleFormControlSelect1\">\n                                    <option>Thieft</option>\n                                    <option>Fire</option>\n                                    <option>Accident</option>\n                                    <option>Molestaion</option>\n                                    <option>Murder</option>\n                                    <option>Death</option>\n                                    <option>Mob</option> \n                                    <option>Assualt</option>\n                                    <option>Departmental</option>\n                                    <option>Help</option>\n                                  </select>                           \n                                  </div>\n                                  <div class=\"form-group\">                           \n                                      <label>Complaint Title</label>\n                                      <input type=\"text\" class=\"form-control\" id=\"name\" name=\"title\" [(ngModel)]=\"addissue.title\"  placeholder=\"Complaint Title\" value=\"\" #title>                          \n                                  </div>\n                                  <div class=\"form-group\">\n                                          <label>Complaint Description</label>\n                                      <textarea type=\"text\" class=\"form-control\" [(ngModel)]=\"addissue.description\" name=\"description\"  placeholder=\"Complaint Description\" value=\"\" #description></textarea>\n                                  </div>\n                              </form>\n                              <div>\n                                  <img *ngFor=\"let url of urls\" [src]=\"url\"  [(ngModel)]=\"addissue.idtype\" name=\"title\" class=\"rounded mb-3\" width=\"180\">\n                                </div>\n                                <input type=\"file\" (change)=\"onfileselected1($event)\"/><br>\n                                <input type=\"file\" (change)=\"onfileselected2($event)\"/><br>\n                                <input type=\"file\" (change)=\"onfileselected3($event)\"/><br>\n                                <input type=\"file\" (change)=\"onfileselected4($event)\"/><br>\n                            </div>\n                              <button class=\"btn btn-primary\" data-dismiss=\"modal\" style=\"color:#fff; background:#13477e!important;\" (click) = \"attach()\">Submit</button>\n                          </div>\n                </div>\n                  </form>\n                  <!-- End # Login Form -->\n                  <!-- Begin | Lost Password Form -->\n              </div>\n              <!-- End # DIV Form -->\n              \n    </div>\n  </div>\n</div>\n  <!-- END # MODAL LOGIN -->\n\n\n\n<!-- BEGIN # MODAL LOGIN -->\n<div class=\"modal fade\" id=\"login-modal2\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\" style=\"display: none;\">\n    <div class=\"modal-dialog\" style=\"max-width: 700px;margin-right: 17%;\">\n    <div class=\"modal-content\">\n      <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n         \n              \n              <!-- Begin # DIV Form -->\n              <div id=\"div-forms\">\n              \n                  <!-- Begin # Login Form -->\n                  <form id=\"login-form\">\n                  <div class=\"modal-body\">\n            \n                      <div class=\"login-form\">\n                          <div class=\"main-div\">\n                              <div class=\"panel\">\n                                  <h3>View Compliant</h3>\n                            \n                             </div>\n                              <form id=\"Login\">\n                          \n\n                                  <div class=\"form-group row\">\n                                      \n                                  <label class=\"col-sm-4\">Complaint From :</label>\n                                  <div class=\"col-md-8\">\n                                      <input type=\"text\" class=\"form-control\"  value = \"{{datass.complaint_from}}\" id=\"name\" disabled>\n                                  </div>\n                                  </div>\n\n                                  <div class=\"form-group\">\n                          \n                                      <label>Type</label>\n                                      <input type=\"text\" class=\"form-control\" id=\"name\"  value = \"{{datass.complaint_type}}\" disabled>\n                          \n                                  </div>\n\n\n                                  \n\n                                  <div class=\"form-group\">\n                          \n                                      <label>Title</label>\n                                      <input type=\"email\" class=\"form-control\" id=\"inputEmail\"  value = \"{{datass.title}}\" disabled>\n                          \n                                  </div>\n                          \n                                  <div class=\"form-group\">\n                                      <label>Description</label>\n                                      <textarea type=\"text\" class=\"form-control\"   id=\"inputEmail\"  value = \"{{datass.description}}\" disabled></textarea>\n                          \n                                  </div>\n                                  \n                                  \n                          \n                              </form>\n\n                              <div class=\"card mb-3\">\n                                  <div class=\"card-body\">\n                                    <h5 class=\"card-title\"></h5>\n                                    <ngx-gallery [options]=\"onlyThumbnailsGalleryOptions\" [images]=\"galleryImages\"></ngx-gallery>\n                                  </div>\n                                </div>\n                              </div>\n                         \n                          </div>\n                </div>\n              \n                  </form>\n                  <!-- End # Login Form -->\n                  \n                  <!-- Begin | Lost Password Form -->\n                \n                  \n                  \n              </div>\n              <!-- End # DIV Form -->\n              \n\n\n\n\n\n\n"
 
 /***/ }),
 
@@ -1269,59 +1258,45 @@ var ListcomplaintsComponent = /** @class */ (function () {
         this.http = http;
         this.route = route;
         this.router = router;
-        this.onlyThumbnailsGalleryOptions = [
-            {
-                'image': false,
-                'height': '100px',
-                'thumbnailSize': 'contain',
-                'arrowPrevIcon': 'fa fa-angle-left',
-                'arrowNextIcon': 'fa fa-angle-right',
-                'width': '100%'
-            }
-        ];
-        this.galleryImages = [
-            {
-                small: 'http://tritontutebox.com/propmall/datauploads/arunexcello/ziva/Project-data/1_COMPANY_PROFILE/vision.png',
-                medium: 'http://tritontutebox.com/propmall/datauploads/arunexcello/ziva/Project-data/1_COMPANY_PROFILE/vision.png',
-                big: 'http://tritontutebox.com/propmall/datauploads/arunexcello/ziva/Project-data/1_COMPANY_PROFILE/vision.png'
-            },
-            {
-                small: 'assets/images/ecommerce/images.jpeg',
-                medium: 'assets/images/ecommerce/images.jpeg',
-                big: 'assets/images/ecommerce/images.jpeg'
-            },
-            {
-                small: 'assets/images/ecommerce/original_6_Hotel_Pet_Peeves_And_How_Hotels_Should_Solve_Them.jpg',
-                medium: 'assets/images/ecommerce/original_6_Hotel_Pet_Peeves_And_How_Hotels_Should_Solve_Them.jpg',
-                big: 'assets/images/ecommerce/original_6_Hotel_Pet_Peeves_And_How_Hotels_Should_Solve_Them.jpg'
-            }
-        ];
-        this.titles = [];
-        this.datas = [];
-        this.urls = new Array();
         this.addissue = new addissue();
-        this.datass = [];
     }
-    ListcomplaintsComponent.prototype.detectFiles = function (event) {
-        var _this = this;
-        this.urls = [];
-        var files = event.target.files;
-        if (files) {
-            for (var _i = 0, files_1 = files; _i < files_1.length; _i++) {
-                var file = files_1[_i];
-                var reader = new FileReader();
-                reader.onload = function (e) {
-                    _this.urls.push(e.target.result);
-                };
-                reader.readAsDataURL(file);
-            }
+    ListcomplaintsComponent.prototype.attach = function () {
+        var fd = new FormData();
+        for (var i = 0; i < this.selectedfiles.length; i++) {
+            fd.append('filetoupload', this.selectedfile[i], this.selectedfile[i].name);
+            console.log(fd);
         }
+        // fd.append('filetoupload', this.selectedfile, this.selectedfile.name);
+        // console.log(fd);
+        // this.http.post('http://132.148.140.42:84/upload/file', fd)
+        // .subscribe((data: any) => {
+        // console.log(data.data); 
+        // this.next1(data.data.path)
+        // this.canloadimage = true;
+        // });   
+    };
+    ListcomplaintsComponent.prototype.onfileselected1 = function (event) {
+        console.log(event);
+        this.selectedfile = event.target.files[0];
+        console.log("done" + this.selectedfile);
+    };
+    ListcomplaintsComponent.prototype.onfileselected2 = function (event) {
+        this.selectedfile = event.target.files[0];
+        console.log(this.selectedfile);
+    };
+    ListcomplaintsComponent.prototype.onfileselected3 = function (event) {
+        this.selectedfile = event.target.files[0];
+        console.log(this.selectedfile);
+    };
+    ListcomplaintsComponent.prototype.onfileselected4 = function (event) {
+        this.selectedfile = event.target.files[0];
+        console.log(this.selectedfile);
     };
     ListcomplaintsComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.id = this.getFromLocal('user_id');
         this.name = this.getFromLocal('Name');
-        this.http.post('http://localhost:84/complaints/complaintlist', { "LoginKey": "" + this.id }).subscribe(function (data) {
+        this.http.post('http://132.148.140.42:84/complaints/complaintlist', { "LoginKey": "" + this.id }).subscribe(function (data) {
             _this.datas = [];
             var dat = data;
             for (var index = 0; index < dat.issue.length; index++) {
@@ -1339,7 +1314,7 @@ var ListcomplaintsComponent = /** @class */ (function () {
         this.addissue.status = "open";
         this.addissue.posted_on = Object(_angular_common__WEBPACK_IMPORTED_MODULE_3__["formatDate"])(new Date(), 'dd-MM-yyyy hh:mm:ss a', 'en-US', '+0530');
         console.log(this.addissue.LoginKey, this.addissue.complaint_from, this.addissue.complaint_type, this.addissue.description, this.addissue.posted_on, this.addissue.status, this.addissue.title);
-        this.http.post('http://localhost:84/complaints/newcomplaints', { "LoginKey": this.addissue.LoginKey, "complaint_from": this.addissue.complaint_from, "title": this.addissue.title, "description": this.addissue.description, "status": this.addissue.status, "posted_on": this.addissue.posted_on, "complaint_type": this.addissue.complaint_type }).subscribe(function (data) {
+        this.http.post('http://132.148.140.42:84/complaints/newcomplaints', { "LoginKey": this.addissue.LoginKey, "complaint_from": this.addissue.complaint_from, "title": this.addissue.title, "description": this.addissue.description, "status": this.addissue.status, "posted_on": this.addissue.posted_on, "complaint_type": this.addissue.complaint_type }).subscribe(function (data) {
             console.log(data);
             alert(data.message);
             _this.ngOnInit();
@@ -1401,132 +1376,6 @@ var addissue = /** @class */ (function () {
     }
     return addissue;
 }());
-
-
-/***/ }),
-
-/***/ "./src/app/complaints/newcomplaints/newcomplaints.component.html":
-/*!***********************************************************************!*\
-  !*** ./src/app/complaints/newcomplaints/newcomplaints.component.html ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  newcomplaints works!\n</p>\n"
-
-/***/ }),
-
-/***/ "./src/app/complaints/newcomplaints/newcomplaints.component.scss":
-/*!***********************************************************************!*\
-  !*** ./src/app/complaints/newcomplaints/newcomplaints.component.scss ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/complaints/newcomplaints/newcomplaints.component.ts":
-/*!*********************************************************************!*\
-  !*** ./src/app/complaints/newcomplaints/newcomplaints.component.ts ***!
-  \*********************************************************************/
-/*! exports provided: NewcomplaintsComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NewcomplaintsComponent", function() { return NewcomplaintsComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var NewcomplaintsComponent = /** @class */ (function () {
-    function NewcomplaintsComponent() {
-    }
-    NewcomplaintsComponent.prototype.ngOnInit = function () {
-    };
-    NewcomplaintsComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-newcomplaints',
-            template: __webpack_require__(/*! ./newcomplaints.component.html */ "./src/app/complaints/newcomplaints/newcomplaints.component.html"),
-            styles: [__webpack_require__(/*! ./newcomplaints.component.scss */ "./src/app/complaints/newcomplaints/newcomplaints.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], NewcomplaintsComponent);
-    return NewcomplaintsComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/complaints/viewcomplaints/viewcomplaints.component.html":
-/*!*************************************************************************!*\
-  !*** ./src/app/complaints/viewcomplaints/viewcomplaints.component.html ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  viewcomplaints works!\n</p>\n"
-
-/***/ }),
-
-/***/ "./src/app/complaints/viewcomplaints/viewcomplaints.component.scss":
-/*!*************************************************************************!*\
-  !*** ./src/app/complaints/viewcomplaints/viewcomplaints.component.scss ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/complaints/viewcomplaints/viewcomplaints.component.ts":
-/*!***********************************************************************!*\
-  !*** ./src/app/complaints/viewcomplaints/viewcomplaints.component.ts ***!
-  \***********************************************************************/
-/*! exports provided: ViewcomplaintsComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewcomplaintsComponent", function() { return ViewcomplaintsComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var ViewcomplaintsComponent = /** @class */ (function () {
-    function ViewcomplaintsComponent() {
-    }
-    ViewcomplaintsComponent.prototype.ngOnInit = function () {
-    };
-    ViewcomplaintsComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-viewcomplaints',
-            template: __webpack_require__(/*! ./viewcomplaints.component.html */ "./src/app/complaints/viewcomplaints/viewcomplaints.component.html"),
-            styles: [__webpack_require__(/*! ./viewcomplaints.component.scss */ "./src/app/complaints/viewcomplaints/viewcomplaints.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], ViewcomplaintsComponent);
-    return ViewcomplaintsComponent;
-}());
-
 
 
 /***/ }),
@@ -1822,69 +1671,6 @@ var MultimenuComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/feedback/editfeedback/editfeedback.component.html":
-/*!*******************************************************************!*\
-  !*** ./src/app/feedback/editfeedback/editfeedback.component.html ***!
-  \*******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  editfeedback works!\n</p>\n"
-
-/***/ }),
-
-/***/ "./src/app/feedback/editfeedback/editfeedback.component.scss":
-/*!*******************************************************************!*\
-  !*** ./src/app/feedback/editfeedback/editfeedback.component.scss ***!
-  \*******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/feedback/editfeedback/editfeedback.component.ts":
-/*!*****************************************************************!*\
-  !*** ./src/app/feedback/editfeedback/editfeedback.component.ts ***!
-  \*****************************************************************/
-/*! exports provided: EditfeedbackComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditfeedbackComponent", function() { return EditfeedbackComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var EditfeedbackComponent = /** @class */ (function () {
-    function EditfeedbackComponent() {
-    }
-    EditfeedbackComponent.prototype.ngOnInit = function () {
-    };
-    EditfeedbackComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-editfeedback',
-            template: __webpack_require__(/*! ./editfeedback.component.html */ "./src/app/feedback/editfeedback/editfeedback.component.html"),
-            styles: [__webpack_require__(/*! ./editfeedback.component.scss */ "./src/app/feedback/editfeedback/editfeedback.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], EditfeedbackComponent);
-    return EditfeedbackComponent;
-}());
-
-
-
-/***/ }),
-
 /***/ "./src/app/feedback/listfeedback/listfeedback.component.html":
 /*!*******************************************************************!*\
   !*** ./src/app/feedback/listfeedback/listfeedback.component.html ***!
@@ -1892,7 +1678,7 @@ var EditfeedbackComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- BEGIN # BOOTSNIP INFO -->\n\n<div class=\"container\">\n  <div class=\"row\">\n      <div _ngcontent-c4=\"\" class=\"header\">\n        <div _ngcontent-c4=\"\" class=\"row\">\n          <div _ngcontent-c4=\"\" class=\"col-12 col-md-6 mb-3\">\n            <div _ngcontent-c4=\"\" class=\"col-md-8\">\n              <h3 _ngcontent-c4=\"\" class=\"adsc\">\n                <i _ngcontent-c4=\"\" class=\"fa fa-university\"></i> &nbsp;Open Complaint</h3>\n              </div>\n            </div>\n            <div _ngcontent-c4=\"\" class=\"col-md-6\">\n                <button type=\"button\" class=\"btn btn-info btn-lg pull-right\" style=\"color: #fff;\" data-toggle=\"collapse\"  data-toggle=\"modal\" data-target=\"#login-modal1\" >Add FAQ</button>\n\n\n            </div>\n          </div>\n         \n        </div>\n        <div class=\" butn col-md-12 pull-left\">\n          <div class=\"notifications1\">\n                    \n              <span class=\"num\">{{All}}</span>\n             \n          </div>\n        <button class=\"input2\" (click) = \"addapi1()\" >Open</button>\n        <div class=\"notifications2\">\n            \n              <span class=\"num\">{{Open}}</span>\n             \n          </div>\n        <button class=\"input1\" (click) = \"addapi2()\">Complete</button>\n         \n        <div class=\"notifications3\">\n            \n              <span class=\"num\">{{Inprogree}}</span>\n             \n          </div>\n        <button class=\"input1\" (click) = \"addapi3()\" >Closed</button>\n               </div>\n        <div class=\"col\">\n    \n            <div class=\"col-md-12\">\n              <div class=\"row\">\n                <div class=\"tabl\" >\n                    <table class=\"table table-bordered\" style=\"border-collapse:collapse;\">\n                        <thead>\n                            <tr>\n                                <th>SL.NO</th>\n                                <th>Complaint ID</th>\n                                <th>Complaint From</th>\n                                <th>Poster ID</th>\n                                <th>Complaint Type</th>\n                                <th>Title</th>\n                                <th>Description</th>\n                                <th>Posted On</th>\n                                <th>Status</th>\n                                <th>View</th>\n                                <th>Edit</th>\n                               \n                            </tr>\n                        </thead>\n                        <tbody>\n                              <ng-container  *ngFor=\"let data of datas ;  let i = index\">\n                                      <tr>\n                                          <td>{{i+1}}</td> \n                                          <td>{{data.complaint_id}}</td>\n                                          <td>{{data.complaint_from}}</td>\n                                          <td id=\"l1\">{{data.poster_id}}</td>\n                                          <td id=\"a1\">{{data.complaint_type}}</td>\n                                          <td id=\"pc1\">{{data.title}}</td>\n                                          <td id=\"pc1\">{{data.description}}</td>\n                                          <td id=\"pc1\">{{data.posted_on}}</td>\n                                          <td id=\"pc1\">{{data.status}}</td>\n                                          <td><button _ngcontent-c6=\"\" class=\"accordion-toggle  btn mat-button-wrapper btn-sm\" data-target=\"#login-modal2\" data-toggle=\"modal\" style=\"background: transparent;\"><i _ngcontent-c6=\"\" class=\"m-1 icon-screen-desktop\"></i></button></td>\n                                        <!-- <td> <button class=\"accordion-toggle  btn mat-button-wrapper btn-sm\" data-toggle=\"collapse\"  data-toggle=\"modal\" data-target=\"#login-modal2\" (click)=\"open($event, data)\"><i _ngcontent-c6=\"\" class=\"m-1 icon-screen-desktop\"></i></button></td> -->\n                                        <td><button type=\"button\" data-toggle=\"modal\"  data-uid=\"1\" class=\" btn  btn-sm\" data-toggle=\"modal\" data-target=\"#login-modal3\" (click)=\"Move($event, data)\" style=\"background: transparent;\"><i _ngcontent-c6=\"\" class=\"fa m-1 fa-send ng-star-inserted\"></i></button></td> \n                                    </tr>\n                                    </ng-container>      \n                        </tbody>\n                    </table>\n                    <div *ngIf=\"loading\" ><div class=\"loader text-center\"></div></div>     \n                    <div class=\"card-footer p-0\">\n                    <ngb-pagination   [collectionSize]=\"collsize\" [(page)]=\"advancedPage\" (pageChange)=\"newsync()\" [boundaryLinks]=\"true\" ></ngb-pagination>\n                    </div>     \n              </div>\n              </div>\n            </div>\n            </div>\n        \n       \n  </div>\n</div>\n<!-- END # BOOTSNIP INFO -->\n\n\n\n\n    <!-- BEGIN # MODAL LOGIN -->\n<div class=\"modal fade\" id=\"login-modal2\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\" style=\"display: none;\">\n    <div class=\"modal-dialog\" style=\"max-width: 700px;margin-right: 17%;\">\n    <div class=\"modal-content\">\n      <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n         \n              \n              <!-- Begin # DIV Form -->\n              <div id=\"div-forms\">\n              \n                  <!-- Begin # Login Form -->\n                  <form id=\"login-form\">\n                  <div class=\"modal-body\">\n            \n                      <div class=\"login-form\">\n                          <div class=\"main-div\">\n                              <div class=\"panel\">\n                                  <h3>View Compliant</h3>\n                            \n                             </div>\n                              <form id=\"Login\">\n                          \n\n                                  <div class=\"form-group row\">\n                                      \n                                  <label class=\"col-sm-4\">Complaint From :</label>\n                                  <div class=\"col-md-8\">\n                                      <input type=\"text\" class=\"form-control\"  value = \"{{datass.issue.complaint_from}}\" id=\"name\" disabled>\n                                  </div>\n                                  </div>\n\n                                  <div class=\"form-group\">\n                          \n                                      <label>Type</label>\n                                      <input type=\"text\" class=\"form-control\" id=\"name\"  value = \"{{datass.issue.complaint_type}}\" disabled>\n                          \n                                  </div>\n\n\n                                  \n\n                                  <div class=\"form-group\">\n                          \n                                      <label>Title</label>\n                                      <input type=\"email\" class=\"form-control\" id=\"inputEmail\"  value = \"{{datass.issue.title}}\" disabled>\n                          \n                                  </div>\n                          \n                                  <div class=\"form-group\">\n                                      <label>Description</label>\n                                      <textarea type=\"text\" class=\"form-control\"   id=\"inputEmail\"  value = \"{{datass.issue.description}}\" disabled></textarea>\n                          \n                                  </div>\n                        \n                              </form>\n\n                              <div class=\"card mb-3\">\n                                  <div class=\"card-body\">\n                                    <h5 class=\"card-title\"></h5>\n                                    <ngx-gallery [options]=\"onlyThumbnailsGalleryOptions\" [images]=\"galleryImages\"></ngx-gallery>\n                                  </div>\n                                </div>\n                              </div>\n                         \n                          </div>\n                </div>\n              \n                  </form>\n                  <!-- End # Login Form -->\n                  \n                  <!-- Begin | Lost Password Form -->\n                \n                  \n                  \n              </div>\n              <!-- End # DIV Form -->\n              \n    </div>\n  </div>\n</div>\n  <!-- END # MODAL LOGIN -->\n\n\n        <!-- BEGIN # MODAL LOGIN -->\n<div class=\"modal fade\" id=\"login-modal3\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\" style=\"display: none;\">\n  <div class=\"modal-dialog\" style=\"max-width: 700px;margin-right: 17%;\">\n  <div class=\"modal-content\">\n    \n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n         \n       \n            \n            <!-- Begin # DIV Form -->\n            <div id=\"div-forms\">\n            \n                <!-- Begin # Login Form -->\n                <form id=\"login-form\">\n                <div class=\"modal-body\">\n          \n                    <div class=\"login-form\">\n                        <div class=\"main-div\">\n                            <div class=\"panel\">\n                                <h3>Move Compliant</h3>\n                          \n                           </div>\n                            <form id=\"Login\">\n                                <div class=\"form-group\">  \n                                <label>Complaint_ID</label>\n                                    <input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Complaint_ID\" value =\"{{datass.issue.complaint_id}}\" #complaint_id disabled>\n                                </div>\n                                <div class=\"form-group\">  \n                                  <label>Enter  Your ID</label>\n                                      <input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Ender your ID\" value = \"Name: {{name}} & User-ID: {{id}}\" #your_id disabled>\n                                  </div>\n                                <div class=\"form-group\">\n                                    <label>Move To</label>\n                                    <select class=\"form-control\" id=\"exampleFormControlSelect1\" #moved_to >\n                                      <option>completed</option>\n                                      <option>Inprogress</option>\n                                    </select>                            \n                                </div>\n                            </form>\n                            <div class=\"card mb-3\">\n                                <div class=\"card-body\">\n                                  <h5 class=\"card-title\"></h5>\n                                  <ngx-gallery [options]=\"onlyThumbnailsGalleryOptions\" [images]=\"galleryImages\"></ngx-gallery>\n                                </div>\n                              </div>\n                            </div>\n                            <button class=\"btn btn-primary\" data-dismiss=\"modal\" style=\"color:#fff; background:#13477e!important;\" (click) = \"submit(complaint_id.value,your_id.value,moved_to.value)\">Submit</button>\n                        </div>\n              </div>\n                </form>   \n            </div>\n            <!-- End # DIV Form -->\n            \n  </div>\n</div>\n</div>\n<!-- END # MODAL LOGIN -->\n\n\n<!-- BEGIN # BOOTSNIP INFO -->\n<div class=\"container\">\n    <div class=\"row\">\n        <div _ngcontent-c4=\"\" class=\"header\">\n          <div _ngcontent-c4=\"\" class=\"row\">\n            <div _ngcontent-c4=\"\" class=\"col-12 col-md-6 mb-3\">\n              <div _ngcontent-c4=\"\" class=\"col-md-8\">\n                <h3 _ngcontent-c4=\"\" class=\"adsc\">\n                  <i _ngcontent-c4=\"\" class=\"fa fa-university\"></i> &nbsp;FAQ List</h3>\n                </div>\n              </div>\n              <div _ngcontent-c4=\"\" class=\"col-md-6\">\n                  <button type=\"button\" class=\"btn btn-info btn-lg pull-right\" style=\"color: #fff;\" data-toggle=\"collapse\"  data-toggle=\"modal\" data-target=\"#login-modal1\" >Add FAQ</button>\n              </div>\n            </div>\n           \n          </div>\n          <div class=\"col stglit\">\n      \n              <div class=\"col-md-12\">\n                <div class=\"row\">\n                  <div class=\"tabl\" >\n                      <table class=\"table table-bordered table-responsive\" style=\"border-collapse:collapse;\">\n                          <thead>\n                              <tr>\n                                  <th>SL.NO</th>\n                                  <th>FAQ ID</th>\n                                  <th>Questions</th>\n                                  <th>Answers</th>\n                                  <th>Date</th>\n                                  <th>View</th> \n                                  <th>Update</th>      \n                                  <th>Delete</th>    \n                              </tr>\n                          </thead>\n                          <tbody>\n                                <ng-container  *ngFor=\"let data of datas ;  let i = index\">\n                                        <tr>\n                                            <td>{{i+1}}</td> \n                                            <td>{{data.faq_id}}</td>\n                                            <td>{{data.questions}}</td>\n                                            <td id=\"l1\">{{data.answers}}</td>\n                                            <td id=\"l1\">{{data.date}}</td>\n                                          <td> <button class=\"accordion-toggle  btn mat-button-wrapper btn-sm\" style=\"background: transparent;\" data-toggle=\"collapse\"  data-toggle=\"modal\"  data-toggle=\"modal\" data-target=\"#login-modal3\" (click)=\"view($event, data)\"><i _ngcontent-c6=\"\" class=\"m-1 icon-screen-desktop\"></i></button></td>\n                                          <td><button type=\"button\" data-toggle=\"modal\"  data-uid=\"1\" class=\" btn  btn-sm\" style=\"background: transparent;\"><i _ngcontent-c6=\"\" class=\"m-1 icon-note\" data-toggle=\"modal\" data-target=\"#login-modal2\" (click)=\"edit($event,data)\"></i></button></td> \n                                          <td><button type=\"button\" data-toggle=\"modal\" data-target=\"#delete\" data-uid=\"1\" class=\" btn  btn-sm\" style=\"background: transparent;\"><i _ngcontent-c6=\"\" class=\"m-1 icon-close\" (click)=\"delete($event,data)\"></i></button></td>\n                                      </tr>\n                                      </ng-container>      \n                          </tbody>\n                      </table>\n                      <div *ngIf=\"loading\" ><div class=\"loader text-center\"></div></div>     \n                      <div class=\"card-footer p-0\">\n                      <ngb-pagination   [collectionSize]=\"collsize\" [(page)]=\"advancedPage\" (pageChange)=\"newsync()\" [boundaryLinks]=\"true\" ></ngb-pagination>\n                      </div>     \n                </div>\n                </div>\n              </div>\n              </div>\n          \n         \n    </div>\n  </div>\n  \n  \n  <!-- BEGIN # MODAL LOGIN -->\n  <div class=\"modal fade\" id=\"login-modal1\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\" style=\"display: none;\">\n    <div class=\"modal-dialog modal-dialogs\" style=\"max-width: 500px;\">\n    <div class=\"modal-content\">\n      \n            <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n           \n         \n              \n              <!-- Begin # DIV Form -->\n              <div id=\"div-forms\">\n              \n                  <!-- Begin # Login Form -->\n                  <form id=\"login-form\">\n                  <div class=\"modal-body\">\n            \n                      <div class=\"login-form\">\n                          <div class=\"main-div\">\n                              <div class=\"panel\">\n                                  <h3>Add FAQ</h3>\n                            \n                             </div>\n                              <form id=\"Login\">\n                                  <div class=\"form-group\">  \n                                  <label>Questions</label>\n                                      <input type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Topic title\" value =\"\" name=\"\" #quest >\n                                  </div>\n                                  <div class=\"form-group\">  \n                                    <label>Answers</label>\n                                    <textarea type=\"text\" class=\"form-control\" id=\"name\" placeholder=\"Description\" value=\"\" name=\"\" #ans></textarea>\n                                    </div>\n                              </form>\n                              </div>\n                              <button class=\"btn btn-primary\" data-dismiss=\"modal\" style=\"color:#fff; background:#13477e!important;\" (click)=\"assign(quest.value,ans.value)\">Submit</button>\n                          </div>\n                </div>\n              \n                  </form>\n                  <!-- End # Login Form -->\n                  \n                  <!-- Begin | Lost Password Form -->\n                \n                  \n                  \n              </div>\n              <!-- End # DIV Form -->\n              \n    </div>\n  </div>\n  </div>\n  <!-- END # MODAL LOGIN -->\n  \n  \n    <!-- BEGIN # MODAL LOGIN -->\n  <div class=\"modal fade\" id=\"login-modal2\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\" style=\"display: none;\">\n    <div class=\"modal-dialog modal-dialogs \" style=\"max-width: 700px;\">\n    <div class=\"modal-content\">\n            <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n     \n              \n              <!-- Begin # DIV Form -->\n              <div id=\"div-forms\">\n              \n                  <!-- Begin # Login Form -->\n                  <form id=\"login-form\">\n                  <div class=\"modal-body\">\n            \n                      <div class=\"login-form\">\n                          <div class=\"main-div\">\n                              <div class=\"panel\">\n                                  <h3>Update FAQ</h3>\n                            \n                             </div>\n                              <form id=\"Login\">\n                          \n    \n                                  <div class=\"form-group\">\n                          \n                                  <label>Question</label>\n                                      <input type=\"text\" class=\"form-control\" id=\"name\" value=\"{{datass.questions}}\" #questions >\n                          \n                                  </div>\n    \n                                  <div class=\"form-group\">\n                          \n                                      <label>Answer</label>\n                                      <textarea class=\"form-control\" id=\"name\" value=\"{{datass.answers}}\" #answers ></textarea>\n                          \n                                  </div>\n                              </form>\n                              </div>\n                              <button class=\"btn btn-primary\" data-dismiss=\"modal\" style=\"color:#fff; background:#13477e!important;\" (click) = \"update(questions.value,answers.value)\">Submit</button>\n                          </div>\n                </div>\n              \n                  </form>\n                  <!-- End # Login Form -->\n                  \n                  <!-- Begin | Lost Password Form -->\n                \n                  \n                  \n              </div>\n              <!-- End # DIV Form -->\n              \n    </div>\n    </div>\n    </div>\n    <!-- END # MODAL LOGIN -->\n  \n    <!-- BEGIN # MODAL LOGIN -->\n  <div class=\"modal fade\" id=\"login-modal3\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\" style=\"display: none;\">\n    <div class=\"modal-dialog modal-dialogs\" style=\"max-width: 700px;\">\n    <div class=\"modal-content\">\n            <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n     \n              \n              <!-- Begin # DIV Form -->\n              <div id=\"div-forms\">\n              \n                  <!-- Begin # Login Form -->\n                  <form id=\"login-form\">\n                  <div class=\"modal-body\">\n            \n                      <div class=\"login-form\">\n                          <div class=\"main-div\">\n                              <div class=\"panel\">\n                                  <h3>View FAQ</h3>\n                            \n                             </div>\n                              <form id=\"Login\">\n                                  <div class=\"form-group\">\n                                  <label>Question</label>\n                                      <input type=\"text\" class=\"form-control\" id=\"name\" value=\"{{datass.questions}}\" disabled>\n                                  </div>\n                                  <div class=\"form-group\">\n                                      <label>Answer</label>\n                                      <textarea class=\"form-control\" id=\"name\" value=\"{{datass.answers}}\" disabled ></textarea>\n                          \n                                  </div>\n                              </form>\n                              </div>\n                          </div>\n                </div>\n                  </form>\n              </div>\n    </div>\n    </div>\n    </div>\n    <!-- END # MODAL LOGIN -->"
+module.exports = "<!-- BEGIN # BOOTSNIP INFO -->\n\n<div class=\"container\">\n  <div class=\"row\">\n      <div _ngcontent-c4=\"\" class=\"header\">\n        <div _ngcontent-c4=\"\" class=\"row\">\n          <div _ngcontent-c4=\"\" class=\"col-12 col-md-6 mb-3\">\n            <div _ngcontent-c4=\"\" class=\"col-md-8\">\n              <h3 _ngcontent-c4=\"\" class=\"adsc\">\n                <i _ngcontent-c4=\"\" class=\"fa fa-university\"></i> &nbsp;Feedback List</h3>\n              </div>\n            </div>\n            <div _ngcontent-c4=\"\" class=\"col-md-6\">\n                <button type=\"button\" class=\"btn btn-info btn-lg pull-right\" style=\"color: #fff;\" data-toggle=\"collapse\"  data-toggle=\"modal\" data-target=\"#login-modal1\" >Add Feedback</button>\n\n\n            </div>\n          </div>\n         \n        </div>\n\n        <div class=\"col\">\n    \n            <div class=\"col-md-12\">\n              <div class=\"row\">\n                <div class=\"tabl\" >\n                    <table class=\"table table-bordered\" style=\"border-collapse:collapse;\">\n                        <thead>\n                            <tr>\n                                <th>SL.NO</th>\n                                <th>Title</th>\n                                <th>Description</th>\n                                <th>Rating</th>\n                                <th>View</th>\n                            </tr>\n                        </thead>\n                        <tbody>\n                              <ng-container  *ngFor=\"let data of datas ;  let i = index\">\n                                    <tr>\n                                          <td>{{i+1}}</td> \n                                          <td id=\"pc1\">{{data.title}}</td>\n                                          <td id=\"pc1\">{{data.description}}</td>\n                                          <td id=\"pc1\">{{data.rating}}</td>\n                                          <td><button _ngcontent-c6=\"\" class=\"accordion-toggle  btn mat-button-wrapper btn-sm\" data-target=\"#login-modal2\" data-toggle=\"modal\" style=\"background: transparent;\"><i _ngcontent-c6=\"\" class=\"m-1 icon-screen-desktop\"></i></button></td>\n                                    </tr>\n                                    </ng-container>      \n                        </tbody>\n                    </table>\n                    <div *ngIf=\"loading\" ><div class=\"loader text-center\"></div></div>     \n                    <div class=\"card-footer p-0\">\n                    <ngb-pagination   [collectionSize]=\"collsize\" [(page)]=\"advancedPage\" (pageChange)=\"newsync()\" [boundaryLinks]=\"true\" ></ngb-pagination>\n                    </div>     \n              </div>\n              </div>\n            </div>\n            </div>\n        \n       \n  </div>\n</div>\n\n\n\n\n\n\n<div class=\"modal fade\" id=\"login-modal2\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\" style=\"display: none;\">\n    <div class=\"modal-dialog\" style=\"max-width: 700px;margin-right: 17%;\">\n    <div class=\"modal-content\">\n      <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n         \n          \n              <div id=\"div-forms\">\n              \n     \n                  <form id=\"login-form\">\n                  <div class=\"modal-body\">\n            \n                      <div class=\"login-form\">\n                          <div class=\"main-div\">\n                              <div class=\"panel\">\n                                  <h3>View Feedback</h3>\n                            \n                             </div>\n                              <form id=\"Login\">\n                                  <div class=\"form-group\">\n                          \n                                      <label>Title</label>\n                                      <input type=\"email\" class=\"form-control\" id=\"inputEmail\"  value = \"{{datass.issue.title}}\" disabled>\n                          \n                                  </div>\n                          \n                                  <div class=\"form-group\">\n                                      <label>Description</label>\n                                      <textarea type=\"text\" class=\"form-control\"   id=\"inputEmail\"  value = \"{{datass.issue.description}}\" disabled></textarea>\n                          \n                                  </div>\n\n                                  <div class=\"form-group\">\n                          \n                                    <label>Rating</label>\n                                    <input type=\"email\" class=\"form-control\" id=\"inputEmail\"  value = \"{{datass.issue.title}}\" disabled>\n                        \n                                </div>\n                        \n                              </form>\n\n                              <div class=\"card mb-3\">\n                                  <div class=\"card-body\">\n                                    <h5 class=\"card-title\"></h5>\n                                    <ngx-gallery [options]=\"onlyThumbnailsGalleryOptions\" [images]=\"galleryImages\"></ngx-gallery>\n                                  </div>\n                                </div>\n                              </div>\n                         \n                          </div>\n                </div>\n              \n                  </form>\n              \n                \n                  \n                  \n              </div>\n             \n              \n    </div>\n  </div>\n</div>\n\n\n  \n  \n<div class=\"modal fade\" id=\"login-modal1\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\" style=\"display: none;\">\n    <div class=\"modal-dialog modal-dialogs\">\n    <div class=\"modal-content\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n     \n              \n       \n              <div id=\"div-forms\">\n              \n                  \n                  <form id=\"login-form\">\n                  <div class=\"modal-body\">\n            \n                      <div class=\"login-form\">\n                          <div class=\"main-div\">\n                              <div class=\"panel\">\n                           <h3>Feedback Form</h3>\n                            \n                             </div>\n                              <form id=\"Login\">\n                                 \n                                  <div class=\"form-group\">                           \n                                      <label>Title</label>\n                                      <input type=\"text\" class=\"form-control\" id=\"name\" name=\"title\" [(ngModel)]=\"addissue.title\"  placeholder=\" Title\" value=\"\" #title>                          \n                                  </div>\n\n                                  <div class=\"form-group\">\n                                          <label>Description</label>\n                                      <textarea type=\"text\" style=\"height: 162px; margin-top: 0px; margin-bottom: 14px;\" class=\"form-control\" [(ngModel)]=\"addissue.description\" name=\"description\"  placeholder=\"Description\" value=\"\" #description></textarea>\n                                  </div>\n\n                                  <div class=\"form-group\">                           \n                                    <label>Rating</label>\n                                    <input type=\"text\" class=\"form-control\" id=\"name\" name=\"title\" [(ngModel)]=\"addissue.title\"  placeholder=\"Title\" value=\"\" #title>                          \n                                </div>\n                                  \n                              </form>\n                              <div>\n                                  <img *ngFor=\"let url of urls\" [src]=\"url\"  [(ngModel)]=\"addissue.idtype\" name=\"title\" class=\"rounded mb-3\" width=\"180\">\n                                </div>\n                                <input type=\"file\" multiple (change)=\"detectFiles($event)\">\n                              </div>\n                              <button class=\"btn btn-primary\" data-dismiss=\"modal\" style=\"color:#fff; background:#13477e!important;\" (click) = \"addcomplaint()\">Submit</button>\n                          </div>\n                </div>\n                  </form>\n            \n              </div>\n              \n              \n    </div>\n  </div>\n</div>\n    \n    "
 
 /***/ }),
 
@@ -1903,7 +1689,7 @@ module.exports = "<!-- BEGIN # BOOTSNIP INFO -->\n\n<div class=\"container\">\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "#login-modal .modal-dialog {\n  width: 600px;\n  margin-left: 40%; }\n\n.btn-primary {\n  background-color: #13477e !important;\n  border-radius: 100px; }\n\n#login-modal input[type=text], input[type=password] {\n  margin-top: 10px; }\n\n#div-login-msg,\n#div-lost-msg,\n#div-register-msg {\n  border: 1px solid #dadfe1;\n  height: 30px;\n  line-height: 28px;\n  transition: all ease-in-out 500ms; }\n\n#div-login-msg.success,\n#div-lost-msg.success,\n#div-register-msg.success {\n  border: 1px solid #68c3a3;\n  background-color: #c8f7c5; }\n\n#div-login-msg.error,\n#div-lost-msg.error,\n#div-register-msg.error {\n  border: 1px solid #eb575b;\n  background-color: #ffcad1; }\n\n#icon-login-msg,\n#icon-lost-msg,\n#icon-register-msg {\n  width: 30px;\n  float: left;\n  line-height: 28px;\n  text-align: center;\n  background-color: #dadfe1;\n  margin-right: 5px;\n  transition: all ease-in-out 500ms; }\n\n#icon-login-msg.success,\n#icon-lost-msg.success,\n#icon-register-msg.success {\n  background-color: #68c3a3 !important; }\n\n#icon-login-msg.error,\n#icon-lost-msg.error,\n#icon-register-msg.error {\n  background-color: #eb575b !important; }\n\n#img_logo {\n  max-height: 100px;\n  max-width: 100px; }\n\n/* #########################################\n   #    override the bootstrap configs     #\n   ######################################### */\n\n.modal-backdrop.in {\n  filter: alpha(opacity=50);\n  opacity: .8; }\n\n.modal-content {\n  background-color: #ececec;\n  border: 1px solid #bdc3c7;\n  border-radius: 0px;\n  outline: 0; }\n\n.modal-header {\n  min-height: 16.43px;\n  padding: 15px 15px 15px 15px;\n  border-bottom: 0px; }\n\n.modal-body {\n  position: relative;\n  padding: 5px 15px 5px 15px; }\n\n.modal-footer {\n  padding: 15px 15px 15px 15px;\n  text-align: left;\n  border-top: 0px; }\n\n.checkbox {\n  margin-bottom: 0px; }\n\n.btn {\n  border-radius: 0px; }\n\n.btn:focus,\n.btn:active:focus,\n.btn.active:focus,\n.btn.focus,\n.btn:active.focus,\n.btn.active.focus {\n  outline: none; }\n\n.btn-lg, .btn-group-lg > .btn {\n  border-radius: 0px; }\n\n.btn-link {\n  padding: 5px 10px 0px 0px;\n  color: #95a5a6; }\n\n.btn-link:hover, .btn-link:focus {\n  color: #2c3e50;\n  text-decoration: none; }\n\n.glyphicon {\n  top: 0px; }\n\n.btn-primary[_ngcontent-c4] {\n  background-color: transparent !important; }\n\n.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {\n  padding: 6px;\n  line-height: 1.42857143;\n  vertical-align: top;\n  border: 1px solid #ddd; }\n\n.btn[_ngcontent-c4] {\n  border-radius: 0px;\n  color: #1d4b7c; }\n\n.btn-primary:hover {\n  color: #fff;\n  border-color: #fff; }\n\n.btn:hover {\n  box-shadow: 0px 4px 5px -2px rgba(255, 255, 255, 0), 0px 7px 10px 1px white, 0px 2px 16px 1px rgba(255, 255, 255, 0.12); }\n\n.btn:hover, .btn:focus, .btn.focus {\n  color: #1d4b7c;\n  text-decoration: none; }\n\n.add {\n  background-color: #13477e !important;\n  color: white;\n  border-radius: 100px; }\n\n.form-control {\n  border-radius: 0px; }\n\n.form-heading {\n  color: #fff;\n  font-size: 23px; }\n\n.panel h2 {\n  color: #444444;\n  font-size: 18px;\n  margin: 0 0 8px 0; }\n\n.panel p {\n  color: #777777;\n  font-size: 14px;\n  margin-bottom: 30px;\n  line-height: 24px; }\n\n.login-form .form-control {\n  background: #f7f7f7 none repeat scroll 0 0;\n  border: 1px solid #d4d4d4;\n  border-radius: 4px;\n  font-size: 14px;\n  height: 50px;\n  line-height: 50px; }\n\n.main-div {\n  background: #ffffff none repeat scroll 0 0;\n  border-radius: 2px;\n  margin: 10px auto 30px;\n  padding: 10px 10px 10px 10px; }\n\n.login-form .form-group {\n  margin-bottom: 10px; }\n\n.login-form {\n  text-align: center; }\n\n.forgot a {\n  color: #777777;\n  font-size: 14px;\n  text-decoration: underline; }\n\n.login-form .btn.btn-primary {\n  background: #f0ad4e none repeat scroll 0 0;\n  border-color: #f0ad4e;\n  color: #ffffff;\n  font-size: 14px;\n  width: 100%;\n  height: 50px;\n  line-height: 50px;\n  padding: 0; }\n\n.forgot {\n  text-align: left;\n  margin-bottom: 30px; }\n\n.botto-text {\n  color: #ffffff;\n  font-size: 14px;\n  margin: auto; }\n\n.login-form .btn.btn-primary.reset {\n  background: #ff9900 none repeat scroll 0 0; }\n\n.back {\n  text-align: left;\n  margin-top: 10px; }\n\n.back a {\n  color: #444444;\n  font-size: 13px;\n  text-decoration: none; }\n\nlabel {\n  display: inline-block;\n  max-width: 100%;\n  margin-bottom: 5px;\n  font-weight: 700;\n  text-align: right;\n  float: left; }\n\n.btn-lg[_ngcontent-c4], .btn-group-lg[_ngcontent-c4] > .btn[_ngcontent-c4] {\n  border-radius: 0px;\n  padding: 8px 10px 7px 13px;\n  margin-top: -3px;\n  border-radius: 100px;\n  color: #fff; }\n\n.btn:focus, .btn:active, button:focus, button:active {\n  outline: none !important;\n  box-shadow: none !important; }\n\n#image-gallery .modal-footer {\n  display: block; }\n\n.ngx-gallery-icon {\n  color: rgba(255, 255, 255, 0.59) !important; }\n\n.thumb {\n  margin-top: 15px;\n  margin-bottom: 15px; }\n\n.login-form[_ngcontent-c4] .form-control[_ngcontent-c4] {\n  background: #f7f7f7 none repeat scroll 0 0;\n  border: 1px solid #d4d4d4;\n  border-radius: 4px;\n  font-size: 14px;\n  line-height: initial; }\n\nul.pagination {\n  display: flex;\n  list-style: none;\n  border-radius: .125rem;\n  padding: 10px;\n  margin: 0 10px 10px 40% !important;\n  width: 100%; }\n\n.input1 {\n  margin: 0px 0px 0px 5%;\n  width: 20%;\n  border-radius: 0px !important;\n  float: left !important;\n  margin-bottom: 20px; }\n\n.close:not(:disabled):not(.disabled) {\n  cursor: pointer;\n  /* float: right; */\n  text-align: right;\n  margin-right: 15px;\n  margin-top: 10px; }\n\n.tabl {\n  width: 100%;\n  float: left; }\n\n.table {\n  background: #fff; }\n\n.input2 {\n  background-color: #0867cc !important;\n  color: white;\n  padding: 12px 20px;\n  border: none;\n  border-radius: 100px !important;\n  cursor: pointer;\n  margin: 0px 0px 0px 2%;\n  width: 20%;\n  float: left !important;\n  margin-bottom: 20px; }\n\n.input1 {\n  background-color: #084280 !important;\n  color: white;\n  padding: 12px 20px;\n  border: none;\n  border-radius: 100px !important;\n  cursor: pointer;\n  margin-bottom: 20px; }\n\n.notifications2 {\n  width: 45px;\n  height: 45px;\n  background: #fff;\n  border-radius: 30px;\n  box-sizing: border-box;\n  text-align: center;\n  float: right;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);\n  position: absolute;\n  z-index: 1111;\n  margin-left: 44%;\n  margin-top: -22px;\n  float: right;\n  text-align: right;\n  z-index: 999; }\n\n.notifications2 .num {\n  position: absolute;\n  top: 11px;\n  right: 14px;\n  width: 25px;\n  height: 25px;\n  border-radius: 50%;\n  background: #fff;\n  color: #222;\n  line-height: 25px;\n  font-family: sans-serif;\n  text-align: center; }\n\n.notifications1 {\n  width: 45px;\n  height: 45px;\n  background: #fff;\n  border-radius: 30px;\n  box-sizing: border-box;\n  text-align: center;\n  float: right;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);\n  position: absolute;\n  z-index: 1111;\n  margin-left: 20%;\n  margin-top: -22px;\n  float: right;\n  text-align: right;\n  z-index: 999; }\n\n.notifications1 .num {\n  position: absolute;\n  top: 11px;\n  right: 14px;\n  width: 25px;\n  height: 25px;\n  border-radius: 50%;\n  background: #fff;\n  color: #222;\n  line-height: 25px;\n  font-family: sans-serif;\n  text-align: center; }\n\n.notifications3 {\n  width: 45px;\n  height: 45px;\n  background: #fff;\n  border-radius: 30px;\n  box-sizing: border-box;\n  text-align: center;\n  float: right;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);\n  position: absolute;\n  z-index: 1111;\n  margin-left: 68%;\n  margin-top: -22px;\n  float: right;\n  text-align: right;\n  z-index: 999; }\n\n.notifications3 .num {\n  position: absolute;\n  top: 11px;\n  right: 14px;\n  width: 25px;\n  height: 25px;\n  border-radius: 50%;\n  background: #fff;\n  color: #222;\n  line-height: 25px;\n  font-family: sans-serif;\n  text-align: center; }\n\n.notifications4 {\n  width: 45px;\n  height: 45px;\n  background: #fff;\n  border-radius: 30px;\n  box-sizing: border-box;\n  text-align: center;\n  float: right;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);\n  position: absolute;\n  z-index: 1111;\n  margin-left: 93%;\n  margin-top: -22px;\n  float: right;\n  text-align: right;\n  z-index: 999; }\n\n.notifications4 .num {\n  position: absolute;\n  top: 11px;\n  right: 14px;\n  width: 25px;\n  height: 25px;\n  border-radius: 50%;\n  background: #fff;\n  color: #222;\n  line-height: 25px;\n  font-family: sans-serif;\n  text-align: center; }\n"
 
 /***/ }),
 
@@ -1918,6 +1704,10 @@ module.exports = ""
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ListfeedbackComponent", function() { return ListfeedbackComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var angular_webstorage_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! angular-webstorage-service */ "./node_modules/angular-webstorage-service/bundles/angular-webstorage-service.es5.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1927,11 +1717,98 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
 
 var ListfeedbackComponent = /** @class */ (function () {
-    function ListfeedbackComponent() {
+    function ListfeedbackComponent(storage, http, route, router) {
+        this.storage = storage;
+        this.http = http;
+        this.route = route;
+        this.router = router;
+        this.onlyThumbnailsGalleryOptions = [
+            {
+                'image': false,
+                'height': '100px',
+                'thumbnailSize': 'contain',
+                'arrowPrevIcon': 'fa fa-angle-left',
+                'arrowNextIcon': 'fa fa-angle-right',
+                'width': '100%'
+            }
+        ];
+        this.galleryImages = [
+            {
+                small: 'http://tritontutebox.com/propmall/datauploads/arunexcello/ziva/Project-data/1_COMPANY_PROFILE/vision.png',
+                medium: 'http://tritontutebox.com/propmall/datauploads/arunexcello/ziva/Project-data/1_COMPANY_PROFILE/vision.png',
+                big: 'http://tritontutebox.com/propmall/datauploads/arunexcello/ziva/Project-data/1_COMPANY_PROFILE/vision.png'
+            },
+            {
+                small: 'assets/images/ecommerce/images.jpeg',
+                medium: 'assets/images/ecommerce/images.jpeg',
+                big: 'assets/images/ecommerce/images.jpeg'
+            },
+            {
+                small: 'assets/images/ecommerce/original_6_Hotel_Pet_Peeves_And_How_Hotels_Should_Solve_Them.jpg',
+                medium: 'assets/images/ecommerce/original_6_Hotel_Pet_Peeves_And_How_Hotels_Should_Solve_Them.jpg',
+                big: 'assets/images/ecommerce/original_6_Hotel_Pet_Peeves_And_How_Hotels_Should_Solve_Them.jpg'
+            }
+        ];
+        this.urls = new Array();
+        this.feedbacklist = new feedbacklist();
+        this.addfeedback = new addfeedback();
+        this.datass = [];
     }
+    ListfeedbackComponent.prototype.detectFiles = function (event) {
+        var _this = this;
+        this.urls = [];
+        var files = event.target.files;
+        if (files) {
+            for (var _i = 0, files_1 = files; _i < files_1.length; _i++) {
+                var file = files_1[_i];
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    _this.urls.push(e.target.result);
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+    };
     ListfeedbackComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.id = this.getFromLocal('user_id');
+        this.name = this.getFromLocal('Name');
+        this.http.post('http://localhost:84/feebdack/listmyfeedback', { "LoginKey": "" + this.id }).subscribe(function (data) {
+            _this.datass = data.data;
+            console.log(_this.datass);
+        });
+    };
+    ListfeedbackComponent.prototype.addfeedbacks = function () {
+        var _this = this;
+        this.addfeedback.posted_by = "" + this.getFromLocal('user_id');
+        this.addfeedback.company_name = this.getFromLocal('Name');
+        this.addfeedback.posted_on = Object(_angular_common__WEBPACK_IMPORTED_MODULE_3__["formatDate"])(new Date(), 'dd-MM-yyyy hh:mm:ss a', 'en-US', '+0530');
+        this.http.post('http://localhost:84/feebdack/listmyfeedback', this.addfeedback).subscribe(function (data) {
+            console.log(data);
+            alert(data.message);
+            _this.ngOnInit();
+        });
+    };
+    ListfeedbackComponent.prototype.open = function (event, item) {
+        var _this = this;
+        console.log(item.complaint_id);
+        this.http.post('http://132.148.140.42:84/feebdack/fetchfeedback', { id: item.id }).subscribe(function (data) {
+            _this.datass = data.issue;
+            console.log(_this.datass);
+        });
+    };
+    ListfeedbackComponent.prototype.getFromLocal = function (key) {
+        // console.log('recieved= key:' + key);
+        return this.storage.get(key);
     };
     ListfeedbackComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -1939,200 +1816,22 @@ var ListfeedbackComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./listfeedback.component.html */ "./src/app/feedback/listfeedback/listfeedback.component.html"),
             styles: [__webpack_require__(/*! ./listfeedback.component.scss */ "./src/app/feedback/listfeedback/listfeedback.component.scss")]
         }),
-        __metadata("design:paramtypes", [])
+        __param(0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(angular_webstorage_service__WEBPACK_IMPORTED_MODULE_4__["LOCAL_STORAGE"])),
+        __metadata("design:paramtypes", [angular_webstorage_service__WEBPACK_IMPORTED_MODULE_4__["WebStorageService"], _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
     ], ListfeedbackComponent);
     return ListfeedbackComponent;
 }());
 
-
-
-/***/ }),
-
-/***/ "./src/app/feedback/newfeedback/newfeedback.component.html":
-/*!*****************************************************************!*\
-  !*** ./src/app/feedback/newfeedback/newfeedback.component.html ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  newfeedback works!\n</p>\n"
-
-/***/ }),
-
-/***/ "./src/app/feedback/newfeedback/newfeedback.component.scss":
-/*!*****************************************************************!*\
-  !*** ./src/app/feedback/newfeedback/newfeedback.component.scss ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/feedback/newfeedback/newfeedback.component.ts":
-/*!***************************************************************!*\
-  !*** ./src/app/feedback/newfeedback/newfeedback.component.ts ***!
-  \***************************************************************/
-/*! exports provided: NewfeedbackComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NewfeedbackComponent", function() { return NewfeedbackComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var NewfeedbackComponent = /** @class */ (function () {
-    function NewfeedbackComponent() {
+var feedbacklist = /** @class */ (function () {
+    function feedbacklist() {
     }
-    NewfeedbackComponent.prototype.ngOnInit = function () {
-    };
-    NewfeedbackComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-newfeedback',
-            template: __webpack_require__(/*! ./newfeedback.component.html */ "./src/app/feedback/newfeedback/newfeedback.component.html"),
-            styles: [__webpack_require__(/*! ./newfeedback.component.scss */ "./src/app/feedback/newfeedback/newfeedback.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], NewfeedbackComponent);
-    return NewfeedbackComponent;
+    return feedbacklist;
 }());
-
-
-
-/***/ }),
-
-/***/ "./src/app/feedback/reportfeedback/reportfeedback.component.html":
-/*!***********************************************************************!*\
-  !*** ./src/app/feedback/reportfeedback/reportfeedback.component.html ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  reportfeedback works!\n</p>\n"
-
-/***/ }),
-
-/***/ "./src/app/feedback/reportfeedback/reportfeedback.component.scss":
-/*!***********************************************************************!*\
-  !*** ./src/app/feedback/reportfeedback/reportfeedback.component.scss ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/feedback/reportfeedback/reportfeedback.component.ts":
-/*!*********************************************************************!*\
-  !*** ./src/app/feedback/reportfeedback/reportfeedback.component.ts ***!
-  \*********************************************************************/
-/*! exports provided: ReportfeedbackComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReportfeedbackComponent", function() { return ReportfeedbackComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var ReportfeedbackComponent = /** @class */ (function () {
-    function ReportfeedbackComponent() {
+var addfeedback = /** @class */ (function () {
+    function addfeedback() {
     }
-    ReportfeedbackComponent.prototype.ngOnInit = function () {
-    };
-    ReportfeedbackComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-reportfeedback',
-            template: __webpack_require__(/*! ./reportfeedback.component.html */ "./src/app/feedback/reportfeedback/reportfeedback.component.html"),
-            styles: [__webpack_require__(/*! ./reportfeedback.component.scss */ "./src/app/feedback/reportfeedback/reportfeedback.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], ReportfeedbackComponent);
-    return ReportfeedbackComponent;
+    return addfeedback;
 }());
-
-
-
-/***/ }),
-
-/***/ "./src/app/feedback/viewfeedback/viewfeedback.component.html":
-/*!*******************************************************************!*\
-  !*** ./src/app/feedback/viewfeedback/viewfeedback.component.html ***!
-  \*******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  viewfeedback works!\n</p>\n"
-
-/***/ }),
-
-/***/ "./src/app/feedback/viewfeedback/viewfeedback.component.scss":
-/*!*******************************************************************!*\
-  !*** ./src/app/feedback/viewfeedback/viewfeedback.component.scss ***!
-  \*******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/feedback/viewfeedback/viewfeedback.component.ts":
-/*!*****************************************************************!*\
-  !*** ./src/app/feedback/viewfeedback/viewfeedback.component.ts ***!
-  \*****************************************************************/
-/*! exports provided: ViewfeedbackComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewfeedbackComponent", function() { return ViewfeedbackComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var ViewfeedbackComponent = /** @class */ (function () {
-    function ViewfeedbackComponent() {
-    }
-    ViewfeedbackComponent.prototype.ngOnInit = function () {
-    };
-    ViewfeedbackComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-viewfeedback',
-            template: __webpack_require__(/*! ./viewfeedback.component.html */ "./src/app/feedback/viewfeedback/viewfeedback.component.html"),
-            styles: [__webpack_require__(/*! ./viewfeedback.component.scss */ "./src/app/feedback/viewfeedback/viewfeedback.component.scss")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], ViewfeedbackComponent);
-    return ViewfeedbackComponent;
-}());
-
 
 
 /***/ }),
@@ -2245,7 +1944,7 @@ var ChangepaswordComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\r\n\r\n  <div class=\"col-12\">\r\n    <div class=\"row\">\r\n\r\n      <div class=\"col-12 col-lg-3 mb-3\">\r\n        <div class=\"card\">\r\n          <div class=\"card-body1\">\r\n            <div class=\"dash-box dash-box-color-1\">\r\n              <div class=\"dash-box-icon\">\r\n                  <i class=\"material-icons\"  style=\"font-size:36px\">\r\n                      person\r\n                      </i>\r\n              </div>\r\n              <div class=\"dash-box-body\">\r\n                  <span class=\"dash-box-title\">&nbsp;</span>\r\n                <span class=\"dash-box-count\">Number of Security</span><br>\r\n                <span class=\"dash-box-title\">23</span>\r\n              </div>\r\n              \r\n              <a href=\"/main/viewemployee\"> <div class=\"dash-box-action\">\r\n                <!-- <button type=\"button\" class=\"btn btn-info mb-3 \">More Info</button> -->\r\n              </div></a>\t\t\t\t\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"col-12 col-lg-3 mb-3\">\r\n        <div class=\"card\">\r\n          <div class=\"card-body2\">\r\n            <div class=\"dash-box dash-box-color-2\">\r\n              <div class=\"dash-box-icon\">\r\n                  <i class=\"material-icons\"  style=\"font-size:36px\">\r\n                      comment\r\n                      </i>\r\n              </div>\r\n              <div class=\"dash-box-body\">\r\n                  <span class=\"dash-box-title\">&nbsp;</span>\r\n                <span class=\"dash-box-count\">Reports</span><br>\r\n                <span class=\"dash-box-title\">100</span>\r\n              </div>\r\n              <a href=\"/main/clientmanagement\">\r\n              <div class=\"dash-box-action\">\r\n              <!-- <button type=\"button\" class=\"btn btn-info mb-3 \">More Info</button> -->\r\n              </div></a>\t\t\t\t\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    \r\n      <div class=\"col-12 col-lg-3 mb-3\">\r\n        <div class=\"card\">\r\n          <div class=\"card-body3\">\r\n            <div class=\"dash-box dash-box-color-2\">\r\n              <div class=\"dash-box-icon\">\r\n                  <i class=\"material-icons\"  style=\"font-size:36px\">\r\n                      list_alt\r\n                      </i>\r\n              </div>\r\n              <div class=\"dash-box-body\">\r\n                  <span class=\"dash-box-title\">&nbsp;</span>\r\n                <span class=\"dash-box-count\">History</span><br>\r\n                <span class=\"dash-box-title\">34</span>\r\n              </div>\r\n              <a href=\"/main/issues\">\r\n              <div class=\"dash-box-action\">\r\n              <!-- <button type=\"button\" class=\"btn btn-info mb-3 \">More Info</button> -->\r\n              </div></a>\t\t\t\t\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    \r\n    \r\n      <div class=\"col-12 col-lg-3 mb-3\">\r\n        <div class=\"card\">\r\n          <div class=\"card-body4\">\r\n            <div class=\"dash-box dash-box-color-2\">\r\n              <div class=\"dash-box-icon\">\r\n                  <i class=\"material-icons\"  style=\"font-size:36px\">\r\n                      notifications\r\n                      </i>\r\n              </div>\r\n              <div class=\"dash-box-body\">\r\n                  <span class=\"dash-box-title\">&nbsp;</span>\r\n                <span class=\"dash-box-count\">Alert</span><br>\r\n                <span class=\"dash-box-title\">2</span>\r\n              </div>\r\n              <a href=\"/main/clientissues\">\r\n              <div class=\"dash-box-action\">\r\n              \r\n              </div></a>\t\t\t\t\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      </div>\r\n            </div>\r\n  \r\n     \r\n\r\n\r\n<br>\r\n<div class=\"row\" style=\"background: #fff;\">\r\n  <div class=\"col-12\">\r\n    <div class=\"full\">\r\n    <div class=\"card\">\r\n\r\n<div class=\"tabl\">\r\n        <table class=\"table table-striped\" width = \"100%\">\r\n          <thead>\r\n          <tr>\r\n            <th scope=\"col\" >Security ID</th>\r\n            <th scope=\"col\" >Security Name</th>\r\n            <th scope=\"col\" >Shift Type</th>\r\n            <th scope=\"col\" >Date</th>\r\n            <th scope=\"col\" >Signin Time</th>\r\n            <th scope=\"col\" >Signout Time</th>\r\n            <th scope=\"col\" >Number of hrs worked</th>\r\n          </tr>\r\n          </thead>\r\n          <tbody>\r\n          <tr>\r\n            <td>SE-01</td>\r\n            <td>Sundar</td>\r\n            <td>Day</td>\r\n            <td>22/09/2108</td>\r\n            <td>04:34:P.M</td>\r\n            <td>04:34:A.M</td>\r\n            <td>12</td>\r\n          </tr>\r\n          <tr>\r\n              <td>SE-01</td>\r\n              <td>parthipan</td>\r\n              <td>Day</td>\r\n              <td>22/09/2108</td>\r\n              <td>04:30:P.M</td>\r\n              <td>02:30:A.M</td>\r\n              <td>10</td>\r\n            </tr>\r\n            <tr>\r\n                <td>SE-09</td>\r\n                <td>tamil</td>\r\n                <td>Day</td>\r\n                <td>22/09/2108</td>\r\n                <td>05:38:P.M</td>\r\n                <td>04:38:A.M</td>\r\n                <td>9</td>\r\n              </tr>\r\n              <tr>\r\n                  <td>SE-08</td>\r\n                  <td>mohammed</td>\r\n                  <td>Day</td>\r\n                  <td>22/09/2108</td>\r\n                  <td>04:34:P.M</td>\r\n                  <td>04:34:A.M</td>\r\n                  <td>12</td>\r\n                </tr>\r\n                <tr>\r\n                    <td>SE-21</td>\r\n                    <td>pangu</td>\r\n                    <td>Day</td>\r\n                    <td>22/09/2108</td>\r\n                    <td>04:34:P.M</td>\r\n                    <td>04:34:A.M</td>\r\n                    <td>12</td>\r\n                  </tr>\r\n                  <tr>\r\n                      <td>SE-451</td>\r\n                      <td>murugan</td>\r\n                      <td>Day</td>\r\n                      <td>22/09/2108</td>\r\n                      <td>09:34:P.M</td>\r\n                      <td>04:34:A.M</td>\r\n                      <td>7</td>\r\n                    </tr>\r\n          </tbody>\r\n        </table>\r\n        </div>\r\n\r\n    </div>\r\n    </div>\r\n</div></div>\r\n\r\n\r\n<!-- <h2 class=\"text-center\">Grid table</h2>\r\n<div class=\"text-center\">\r\n  <nav class=\"breadcrumb mx-auto d-inline-block\">\r\n    <a class=\"breadcrumb-item text-body\" routerLink=\"/\">Home</a>\r\n    <a class=\"breadcrumb-item text-body\" routerLink=\"/\">Extra</a>\r\n    <span class=\"breadcrumb-item active\">Grid table</span>\r\n  </nav>\r\n</div>\r\n<div class=\"card mb-3\">\r\n  <div class=\"card-body\">\r\n    <h5 class=\"card-title\">10k rows</h5>\r\n    <ngx-datatable\r\n      class=\"material\"\r\n      [columnMode]=\"'force'\"\r\n      [headerHeight]=\"50\"\r\n      [footerHeight]=\"0\"\r\n      [rowHeight]=\"50\"\r\n      [scrollbarV]=\"true\"\r\n      [scrollbarH]=\"true\"\r\n      [rows]=\"rows\">\r\n      <ngx-datatable-column name=\"Id\" [width]=\"80\"></ngx-datatable-column>\r\n      <ngx-datatable-column name=\"Name\" [width]=\"300\"></ngx-datatable-column>\r\n      <ngx-datatable-column name=\"Gender\"></ngx-datatable-column>\r\n      <ngx-datatable-column name=\"Age\"></ngx-datatable-column>\r\n      <ngx-datatable-column name=\"City\" [width]=\"300\" prop=\"address.city\"></ngx-datatable-column>\r\n      <ngx-datatable-column name=\"State\" [width]=\"300\" prop=\"address.state\"></ngx-datatable-column>\r\n    </ngx-datatable>\r\n  </div>\r\n</div>\r\n<div class=\"card mb-3\">\r\n  <div class=\"card-body\">\r\n    <h5 class=\"card-title\">Search</h5>\r\n    <input\r\n      type='text'\r\n      style='padding:8px;margin:15px auto;width:30%;'\r\n      placeholder='Type to filter the name column...'\r\n      (keyup)='updateFilter($event)'\r\n    />\r\n    <ngx-datatable\r\n      #table\r\n      class='material'\r\n      [columns]=\"columns\"\r\n      [columnMode]=\"'force'\"\r\n      [headerHeight]=\"50\"\r\n      [footerHeight]=\"50\"\r\n      [rowHeight]=\"'auto'\"\r\n      [limit]=\"10\"\r\n      [rows]='filterRows'>\r\n    </ngx-datatable>\r\n  </div>\r\n</div>\r\n\r\n<div class=\"card mb-3\">\r\n  <div class=\"card-body\">\r\n    <h5 class=\"card-title\">Multiselect</h5>\r\n    <ngx-datatable\r\n      class=\"material\"\r\n      [rows]=\"rows\"\r\n      [columnMode]=\"'force'\"\r\n      [columns]=\"columns\"\r\n      [headerHeight]=\"50\"\r\n      [footerHeight]=\"50\"\r\n      [rowHeight]=\"'auto'\"\r\n      [limit]=\"5\"\r\n      [selected]=\"selected\"\r\n      [selectionType]=\"'multiClick'\"\r\n      (select)='onSelect($event)'>\r\n    </ngx-datatable>\r\n  </div>\r\n</div>\r\n\r\n -->\r\n"
+module.exports = "\r\n\r\n  <div class=\"col-12\">\r\n    <div class=\"row\">\r\n\r\n      <div class=\"col-12 col-lg-3 mb-3\">\r\n        <div class=\"card\">\r\n          <div class=\"card-body1\">\r\n            <div class=\"dash-box dash-box-color-1\">\r\n              <div class=\"dash-box-icon\">\r\n                  \r\n              </div>\r\n              <div class=\"dash-box-body\">\r\n                  <span class=\"dash-box-title\">&nbsp;</span>\r\n                <span class=\"dash-box-count\">Number of Security</span><br>\r\n                <span class=\"dash-box-title\">23</span>\r\n              </div>\r\n              \r\n              <a href=\"/main/viewemployee\"> <div class=\"dash-box-action\">\r\n                <!-- <button type=\"button\" class=\"btn btn-info mb-3 \">More Info</button> -->\r\n              </div></a>\t\t\t\t\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"col-12 col-lg-3 mb-3\">\r\n        <div class=\"card\">\r\n          <div class=\"card-body2\">\r\n            <div class=\"dash-box dash-box-color-2\">\r\n              <div class=\"dash-box-icon\">\r\n                  \r\n              </div>\r\n              <div class=\"dash-box-body\">\r\n                  <span class=\"dash-box-title\">&nbsp;</span>\r\n                <span class=\"dash-box-count\">Reports</span><br>\r\n                <span class=\"dash-box-title\">100</span>\r\n              </div>\r\n              <a href=\"/main/clientmanagement\">\r\n              <div class=\"dash-box-action\">\r\n              <!-- <button type=\"button\" class=\"btn btn-info mb-3 \">More Info</button> -->\r\n              </div></a>\t\t\t\t\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    \r\n      <div class=\"col-12 col-lg-3 mb-3\">\r\n        <div class=\"card\">\r\n          <div class=\"card-body3\">\r\n            <div class=\"dash-box dash-box-color-2\">\r\n              <div class=\"dash-box-icon\">\r\n                  \r\n              </div>\r\n              <div class=\"dash-box-body\">\r\n                  <span class=\"dash-box-title\">&nbsp;</span>\r\n                <span class=\"dash-box-count\">History</span><br>\r\n                <span class=\"dash-box-title\">34</span>\r\n              </div>\r\n              <a href=\"/main/issues\">\r\n              <div class=\"dash-box-action\">\r\n              <!-- <button type=\"button\" class=\"btn btn-info mb-3 \">More Info</button> -->\r\n              </div></a>\t\t\t\t\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    \r\n    \r\n      <div class=\"col-12 col-lg-3 mb-3\">\r\n        <div class=\"card\">\r\n          <div class=\"card-body4\">\r\n            <div class=\"dash-box dash-box-color-2\">\r\n              <div class=\"dash-box-icon\">\r\n                  \r\n              </div>\r\n              <div class=\"dash-box-body\">\r\n                  <span class=\"dash-box-title\">&nbsp;</span>\r\n                <span class=\"dash-box-count\">Alert</span><br>\r\n                <span class=\"dash-box-title\">2</span>\r\n              </div>\r\n              <a href=\"/main/clientissues\">\r\n              <div class=\"dash-box-action\">\r\n              \r\n              </div></a>\t\t\t\t\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      </div>\r\n            </div>\r\n  \r\n     \r\n\r\n\r\n<br>\r\n<div class=\"row\" style=\"background: #fff;\">\r\n  <div class=\"col-12\">\r\n    <div class=\"full\">\r\n    <div class=\"card\">\r\n\r\n<div class=\"tabl\">\r\n        <table class=\"table table-striped\" width = \"100%\">\r\n          <thead>\r\n          <tr>\r\n            <th scope=\"col\" >Security ID</th>\r\n            <th scope=\"col\" >Security Name</th>\r\n            <th scope=\"col\" >Shift Type</th>\r\n            <th scope=\"col\" >Date</th>\r\n            <th scope=\"col\" >Signin Time</th>\r\n            <th scope=\"col\" >Signout Time</th>\r\n            <th scope=\"col\" >Number of hrs worked</th>\r\n          </tr>\r\n          </thead>\r\n          <tbody>\r\n          <tr>\r\n            <td>SE-01</td>\r\n            <td>Sundar</td>\r\n            <td>Day</td>\r\n            <td>22/09/2108</td>\r\n            <td>04:34:P.M</td>\r\n            <td>04:34:A.M</td>\r\n            <td>12</td>\r\n          </tr>\r\n          <tr>\r\n              <td>SE-01</td>\r\n              <td>parthipan</td>\r\n              <td>Day</td>\r\n              <td>22/09/2108</td>\r\n              <td>04:30:P.M</td>\r\n              <td>02:30:A.M</td>\r\n              <td>10</td>\r\n            </tr>\r\n            <tr>\r\n                <td>SE-09</td>\r\n                <td>tamil</td>\r\n                <td>Day</td>\r\n                <td>22/09/2108</td>\r\n                <td>05:38:P.M</td>\r\n                <td>04:38:A.M</td>\r\n                <td>9</td>\r\n              </tr>\r\n              <tr>\r\n                  <td>SE-08</td>\r\n                  <td>mohammed</td>\r\n                  <td>Day</td>\r\n                  <td>22/09/2108</td>\r\n                  <td>04:34:P.M</td>\r\n                  <td>04:34:A.M</td>\r\n                  <td>12</td>\r\n                </tr>\r\n                <tr>\r\n                    <td>SE-21</td>\r\n                    <td>pangu</td>\r\n                    <td>Day</td>\r\n                    <td>22/09/2108</td>\r\n                    <td>04:34:P.M</td>\r\n                    <td>04:34:A.M</td>\r\n                    <td>12</td>\r\n                  </tr>\r\n                  <tr>\r\n                      <td>SE-451</td>\r\n                      <td>murugan</td>\r\n                      <td>Day</td>\r\n                      <td>22/09/2108</td>\r\n                      <td>09:34:P.M</td>\r\n                      <td>04:34:A.M</td>\r\n                      <td>7</td>\r\n                    </tr>\r\n          </tbody>\r\n        </table>\r\n        </div>\r\n\r\n    </div>\r\n    </div>\r\n</div></div>\r\n\r\n\r\n<!-- <h2 class=\"text-center\">Grid table</h2>\r\n<div class=\"text-center\">\r\n  <nav class=\"breadcrumb mx-auto d-inline-block\">\r\n    <a class=\"breadcrumb-item text-body\" routerLink=\"/\">Home</a>\r\n    <a class=\"breadcrumb-item text-body\" routerLink=\"/\">Extra</a>\r\n    <span class=\"breadcrumb-item active\">Grid table</span>\r\n  </nav>\r\n</div>\r\n<div class=\"card mb-3\">\r\n  <div class=\"card-body\">\r\n    <h5 class=\"card-title\">10k rows</h5>\r\n    <ngx-datatable\r\n      class=\"material\"\r\n      [columnMode]=\"'force'\"\r\n      [headerHeight]=\"50\"\r\n      [footerHeight]=\"0\"\r\n      [rowHeight]=\"50\"\r\n      [scrollbarV]=\"true\"\r\n      [scrollbarH]=\"true\"\r\n      [rows]=\"rows\">\r\n      <ngx-datatable-column name=\"Id\" [width]=\"80\"></ngx-datatable-column>\r\n      <ngx-datatable-column name=\"Name\" [width]=\"300\"></ngx-datatable-column>\r\n      <ngx-datatable-column name=\"Gender\"></ngx-datatable-column>\r\n      <ngx-datatable-column name=\"Age\"></ngx-datatable-column>\r\n      <ngx-datatable-column name=\"City\" [width]=\"300\" prop=\"address.city\"></ngx-datatable-column>\r\n      <ngx-datatable-column name=\"State\" [width]=\"300\" prop=\"address.state\"></ngx-datatable-column>\r\n    </ngx-datatable>\r\n  </div>\r\n</div>\r\n<div class=\"card mb-3\">\r\n  <div class=\"card-body\">\r\n    <h5 class=\"card-title\">Search</h5>\r\n    <input\r\n      type='text'\r\n      style='padding:8px;margin:15px auto;width:30%;'\r\n      placeholder='Type to filter the name column...'\r\n      (keyup)='updateFilter($event)'\r\n    />\r\n    <ngx-datatable\r\n      #table\r\n      class='material'\r\n      [columns]=\"columns\"\r\n      [columnMode]=\"'force'\"\r\n      [headerHeight]=\"50\"\r\n      [footerHeight]=\"50\"\r\n      [rowHeight]=\"'auto'\"\r\n      [limit]=\"10\"\r\n      [rows]='filterRows'>\r\n    </ngx-datatable>\r\n  </div>\r\n</div>\r\n\r\n<div class=\"card mb-3\">\r\n  <div class=\"card-body\">\r\n    <h5 class=\"card-title\">Multiselect</h5>\r\n    <ngx-datatable\r\n      class=\"material\"\r\n      [rows]=\"rows\"\r\n      [columnMode]=\"'force'\"\r\n      [columns]=\"columns\"\r\n      [headerHeight]=\"50\"\r\n      [footerHeight]=\"50\"\r\n      [rowHeight]=\"'auto'\"\r\n      [limit]=\"5\"\r\n      [selected]=\"selected\"\r\n      [selectionType]=\"'multiClick'\"\r\n      (select)='onSelect($event)'>\r\n    </ngx-datatable>\r\n  </div>\r\n</div>\r\n\r\n -->\r\n"
 
 /***/ }),
 
@@ -2938,20 +2637,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_register_page_register_page_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../pages/register-page/register-page.component */ "./src/app/pages/register-page/register-page.component.ts");
 /* harmony import */ var _pages_forgotpswd_forgotpswd_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../pages/forgotpswd/forgotpswd.component */ "./src/app/pages/forgotpswd/forgotpswd.component.ts");
 /* harmony import */ var _pages_changepasword_changepasword_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../pages/changepasword/changepasword.component */ "./src/app/pages/changepasword/changepasword.component.ts");
-/* harmony import */ var app_complaints_newcomplaints_newcomplaints_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! app/complaints/newcomplaints/newcomplaints.component */ "./src/app/complaints/newcomplaints/newcomplaints.component.ts");
-/* harmony import */ var app_complaints_editcomplaints_editcomplaints_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! app/complaints/editcomplaints/editcomplaints.component */ "./src/app/complaints/editcomplaints/editcomplaints.component.ts");
-/* harmony import */ var app_complaints_viewcomplaints_viewcomplaints_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! app/complaints/viewcomplaints/viewcomplaints.component */ "./src/app/complaints/viewcomplaints/viewcomplaints.component.ts");
-/* harmony import */ var app_complaints_listcomplaints_listcomplaints_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! app/complaints/listcomplaints/listcomplaints.component */ "./src/app/complaints/listcomplaints/listcomplaints.component.ts");
-/* harmony import */ var app_complaints_closedcomplaints_closedcomplaints_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! app/complaints/closedcomplaints/closedcomplaints.component */ "./src/app/complaints/closedcomplaints/closedcomplaints.component.ts");
-/* harmony import */ var app_feedback_newfeedback_newfeedback_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! app/feedback/newfeedback/newfeedback.component */ "./src/app/feedback/newfeedback/newfeedback.component.ts");
-/* harmony import */ var app_feedback_viewfeedback_viewfeedback_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! app/feedback/viewfeedback/viewfeedback.component */ "./src/app/feedback/viewfeedback/viewfeedback.component.ts");
-/* harmony import */ var app_feedback_editfeedback_editfeedback_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! app/feedback/editfeedback/editfeedback.component */ "./src/app/feedback/editfeedback/editfeedback.component.ts");
-/* harmony import */ var app_feedback_listfeedback_listfeedback_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! app/feedback/listfeedback/listfeedback.component */ "./src/app/feedback/listfeedback/listfeedback.component.ts");
-/* harmony import */ var app_feedback_reportfeedback_reportfeedback_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! app/feedback/reportfeedback/reportfeedback.component */ "./src/app/feedback/reportfeedback/reportfeedback.component.ts");
-/* harmony import */ var app_complaints_completecomplaints_completecomplaints_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! app/complaints/completecomplaints/completecomplaints.component */ "./src/app/complaints/completecomplaints/completecomplaints.component.ts");
-/* harmony import */ var app_test_test_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! app/test/test.component */ "./src/app/test/test.component.ts");
-/* harmony import */ var app_complaints_completeview_completeview_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! app/complaints/completeview/completeview.component */ "./src/app/complaints/completeview/completeview.component.ts");
-/* harmony import */ var app_complaints_closedview_closedview_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! app/complaints/closedview/closedview.component */ "./src/app/complaints/closedview/closedview.component.ts");
+/* harmony import */ var app_complaints_editcomplaints_editcomplaints_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! app/complaints/editcomplaints/editcomplaints.component */ "./src/app/complaints/editcomplaints/editcomplaints.component.ts");
+/* harmony import */ var app_complaints_listcomplaints_listcomplaints_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! app/complaints/listcomplaints/listcomplaints.component */ "./src/app/complaints/listcomplaints/listcomplaints.component.ts");
+/* harmony import */ var app_complaints_closedcomplaints_closedcomplaints_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! app/complaints/closedcomplaints/closedcomplaints.component */ "./src/app/complaints/closedcomplaints/closedcomplaints.component.ts");
+/* harmony import */ var app_feedback_listfeedback_listfeedback_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! app/feedback/listfeedback/listfeedback.component */ "./src/app/feedback/listfeedback/listfeedback.component.ts");
+/* harmony import */ var app_complaints_completecomplaints_completecomplaints_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! app/complaints/completecomplaints/completecomplaints.component */ "./src/app/complaints/completecomplaints/completecomplaints.component.ts");
+/* harmony import */ var app_test_test_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! app/test/test.component */ "./src/app/test/test.component.ts");
+/* harmony import */ var app_complaints_completeview_completeview_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! app/complaints/completeview/completeview.component */ "./src/app/complaints/completeview/completeview.component.ts");
+/* harmony import */ var app_complaints_closedview_closedview_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! app/complaints/closedview/closedview.component */ "./src/app/complaints/closedview/closedview.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2974,33 +2667,21 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
-
-
-
-
-
-
 // Routes model for application. Some of the pages are loaded lazily to increase startup time.
 var APP_ROUTES = [
     {
         path: 'main', component: _pages_main_page_main_page_component__WEBPACK_IMPORTED_MODULE_4__["MainPageComponent"], children: [
             { path: 'dashboard', component: _pages_dashboard_page_dashboard_page_component__WEBPACK_IMPORTED_MODULE_2__["DashboardPageComponent"] },
-            { path: 'test', component: app_test_test_component__WEBPACK_IMPORTED_MODULE_19__["TestComponent"] },
+            { path: 'test', component: app_test_test_component__WEBPACK_IMPORTED_MODULE_13__["TestComponent"] },
             //**Complaints*/
-            { path: 'newcomplaint', component: app_complaints_newcomplaints_newcomplaints_component__WEBPACK_IMPORTED_MODULE_8__["NewcomplaintsComponent"] },
-            { path: 'viewcomplaint', component: app_complaints_viewcomplaints_viewcomplaints_component__WEBPACK_IMPORTED_MODULE_10__["ViewcomplaintsComponent"] },
-            { path: 'editcomplaint', component: app_complaints_editcomplaints_editcomplaints_component__WEBPACK_IMPORTED_MODULE_9__["EditcomplaintsComponent"] },
-            { path: 'listcomplaints', component: app_complaints_listcomplaints_listcomplaints_component__WEBPACK_IMPORTED_MODULE_11__["ListcomplaintsComponent"] },
-            { path: 'closedcomplaints', component: app_complaints_closedcomplaints_closedcomplaints_component__WEBPACK_IMPORTED_MODULE_12__["ClosedcomplaintsComponent"] },
-            { path: 'completecomplaints', component: app_complaints_completecomplaints_completecomplaints_component__WEBPACK_IMPORTED_MODULE_18__["CompletecomplaintsComponent"] },
-            { path: 'completedview/:id', component: app_complaints_completeview_completeview_component__WEBPACK_IMPORTED_MODULE_20__["CompleteviewComponent"] },
-            { path: 'colsedview/:id', component: app_complaints_closedview_closedview_component__WEBPACK_IMPORTED_MODULE_21__["ClosedviewComponent"] },
+            { path: 'editcomplaint', component: app_complaints_editcomplaints_editcomplaints_component__WEBPACK_IMPORTED_MODULE_8__["EditcomplaintsComponent"] },
+            { path: 'listcomplaints', component: app_complaints_listcomplaints_listcomplaints_component__WEBPACK_IMPORTED_MODULE_9__["ListcomplaintsComponent"] },
+            { path: 'closedcomplaints', component: app_complaints_closedcomplaints_closedcomplaints_component__WEBPACK_IMPORTED_MODULE_10__["ClosedcomplaintsComponent"] },
+            { path: 'completecomplaints', component: app_complaints_completecomplaints_completecomplaints_component__WEBPACK_IMPORTED_MODULE_12__["CompletecomplaintsComponent"] },
+            { path: 'completedview/:id', component: app_complaints_completeview_completeview_component__WEBPACK_IMPORTED_MODULE_14__["CompleteviewComponent"] },
+            { path: 'colsedview/:id', component: app_complaints_closedview_closedview_component__WEBPACK_IMPORTED_MODULE_15__["ClosedviewComponent"] },
             //**FeedBack*/
-            { path: 'newfeedback', component: app_feedback_newfeedback_newfeedback_component__WEBPACK_IMPORTED_MODULE_13__["NewfeedbackComponent"] },
-            { path: 'viewfeedback', component: app_feedback_viewfeedback_viewfeedback_component__WEBPACK_IMPORTED_MODULE_14__["ViewfeedbackComponent"] },
-            { path: 'editfeedback', component: app_feedback_editfeedback_editfeedback_component__WEBPACK_IMPORTED_MODULE_15__["EditfeedbackComponent"] },
-            { path: 'listfeedback', component: app_feedback_listfeedback_listfeedback_component__WEBPACK_IMPORTED_MODULE_16__["ListfeedbackComponent"] },
-            { path: 'reportfeedback', component: app_feedback_reportfeedback_reportfeedback_component__WEBPACK_IMPORTED_MODULE_17__["ReportfeedbackComponent"] },
+            { path: 'listfeedback', component: app_feedback_listfeedback_listfeedback_component__WEBPACK_IMPORTED_MODULE_11__["ListfeedbackComponent"] },
             { path: '**', redirectTo: '/dashboard' },
         ]
     },
@@ -3034,7 +2715,7 @@ var AppRoutesModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Button trigger modal -->\n<button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#exampleModal\">\n    Launch demo modal\n  </button>\n  \n  <!-- Modal -->\n  <div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLabel\" aria-hidden=\"true\">\n    <div class=\"modal-dialog\" role=\"document\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <h5 class=\"modal-title\" id=\"exampleModalLabel\">Modal title</h5>\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n            <span aria-hidden=\"true\">&times;</span>\n          </button>\n        </div>\n        <div class=\"modal-body\">\n          ...\n        </div>\n        <div class=\"modal-footer\">\n          <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>\n          <button type=\"button\" class=\"btn btn-primary\">Save changes</button>\n        </div>\n      </div>\n    </div>\n  </div>"
+module.exports = "<input type=\"file\" multiple (change)=\"detectFiles($event)\">"
 
 /***/ }),
 
@@ -3081,8 +2762,26 @@ var TestComponent = /** @class */ (function () {
         this.router = router;
         this.titles = [];
         this.datass = {};
+        this.urls = new Array();
     }
     TestComponent.prototype.ngOnInit = function () {
+    };
+    TestComponent.prototype.detectFiles = function (event) {
+        var _this = this;
+        console.log();
+        this.urls = [];
+        var files = event.target.files;
+        if (files) {
+            for (var _i = 0, files_1 = files; _i < files_1.length; _i++) {
+                var file = files_1[_i];
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    _this.urls.push(e.target.result);
+                };
+                reader.readAsDataURL(file);
+                console.log(this.urls);
+            }
+        }
     };
     TestComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
